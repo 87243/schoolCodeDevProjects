@@ -7,6 +7,36 @@ a{
     color: cyan;
 }
 
-li{
+p{
+    display: inline;
+    color: white;
+}
+
+.p1{
     color: green;
+}
+
+.p2{
+    color: red;
+}
+
+li{
+    list-style-type: "⮡  ";
+}
+
+.li1{
+    list-style-type: disc;
+    color: red;
+}
+
+.li2{
+    color: green;
+}
+
+.li3{
+    color: blue;
+}
+
+.li4{
+    color: cyan;
 }
