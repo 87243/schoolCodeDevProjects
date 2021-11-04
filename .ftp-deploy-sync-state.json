@@ -1,0 +1,511 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1636030806577,
+    "data": [
+        {
+            "type": "folder",
+            "name": "basis1"
+        },
+        {
+            "type": "folder",
+            "name": "media"
+        },
+        {
+            "type": "file",
+            "name": "test.txt",
+            "size": 0,
+            "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module1"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module2"
+        },
+        {
+            "type": "file",
+            "name": "media/index.html",
+            "size": 464,
+            "hash": "05f3170882b39b4cd26bdc4deccc0ba1965fa57881350b5d13834801144c86fa"
+        },
+        {
+            "type": "file",
+            "name": "media/index2.html",
+            "size": 883,
+            "hash": "91f6e3e4e08cd6571ea3d5d5a828bf6fbf86f19e03fa4a61ad9a3cc87b2c468a"
+        },
+        {
+            "type": "folder",
+            "name": "media/prehistorie"
+        },
+        {
+            "type": "file",
+            "name": "media/style.css",
+            "size": 104,
+            "hash": "1306c07446ef8821883a91be1b835d8d40fb0441ae0dce3f4c71fa436bef9d1a"
+        },
+        {
+            "type": "file",
+            "name": "media/style2.css",
+            "size": 77,
+            "hash": "518557d86bd059f59a484c5d0a4ac8cc696fba77791407e7a6be2726c259b987"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module1/oefeningen"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module1/opdrachten"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module1/speedo"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module2/eindopdracht1"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module2/les1Opdracht1.1Klaar"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module2/les3Opdracht1ABCDKlaar"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module2/les4Opdracht1EeKlaar"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module2/les4Opdracht1Klaar"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module2/les5OpdrachtKlaar"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module2/les6Opdracht6Klaar"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module2/week3"
+        },
+        {
+            "type": "folder",
+            "name": "media/prehistorie/les2"
+        },
+        {
+            "type": "folder",
+            "name": "media/prehistorie/les3"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module1/oefeningen/HTML & CSS oefening 3"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module1/oefeningen/HTML & CSS oefening 4"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module1/oefeningen/Oefening 1"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module1/opdrachten/Opdracht 1.1 1.2 1.3 Klaar"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module1/opdrachten/Opdracht 2.1 Klaar"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module1/opdrachten/Opdracht 2.2 Klaar"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module1/opdrachten/Opdracht 3.1 Klaar"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module1/opdrachten/Opdracht 3.2 Klaar"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module1/opdrachten/eindopdrachtKlaar"
+        },
+        {
+            "type": "folder",
+            "name": "basis1/module1/opdrachten/temp"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/speedo/Index.html",
+            "size": 342,
+            "hash": "3096bce078c1e5ac9f39744a27c27a078b0ff87cbb96052d024a766afd35b3b9"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/speedo/Style.css",
+            "size": 537,
+            "hash": "ea3e2fa176019f13ccc3618a34d85e30999d57c20cfa26cd22b1b5f9ff187473"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/eindopdracht1/index.html",
+            "size": 731,
+            "hash": "38a25e784d543f729bfd9ab683810726685cad66484d30d0386d606c6cf9d68b"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/eindopdracht1/script.js",
+            "size": 26,
+            "hash": "ffb6a71eeca882abb07d40498b5ff75c61f0fa110d8bfc899818e3165eb0d4c9"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/eindopdracht1/style.css",
+            "size": 81,
+            "hash": "c3e098df0be8b07768c97610028bf24322998fa99343f439fefb72eb23b8ad24"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/les1Opdracht1.1Klaar/index.html",
+            "size": 310,
+            "hash": "018eeed802e0e0c691b3edc20e340c057cce266265563edfc47b981598305ac0"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/les1Opdracht1.1Klaar/script.js",
+            "size": 401,
+            "hash": "72125d8420683b7c9ecd589806ac291b963914050b74c8c1549b02888c14164d"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/les1Opdracht1.1Klaar/style.css",
+            "size": 146,
+            "hash": "f07052c4ae116bc707dfd31cc9339d28fbf35311b098c4f9afabb685f936b6ff"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/les3Opdracht1ABCDKlaar/index.html",
+            "size": 252,
+            "hash": "7a48d5e196773976f5041c244cfc8e25db521462a0fec41e0e3044a5974a8b15"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/les3Opdracht1ABCDKlaar/script.js",
+            "size": 1371,
+            "hash": "31a1b3a0913084863fd9edffefc2d380b99cf99d7df19bdfcf1c06fae86f0052"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/les3Opdracht1ABCDKlaar/style.css",
+            "size": 64,
+            "hash": "1444aa141c82c93464fa1caffe632d99f17623459d551adf4ea63b1936e415e9"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/les4Opdracht1EeKlaar/index.html",
+            "size": 769,
+            "hash": "ddb61abd0dcc888cea38d8e85e85c2fdacfce308d4e1bb60dcc55b75d12c3ed8"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/les4Opdracht1EeKlaar/script.js",
+            "size": 230,
+            "hash": "ebcea7129626257412fe7a65deb3e0475ca2dba90f3d3c2744451c6c09ac0717"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/les4Opdracht1EeKlaar/style.css",
+            "size": 179,
+            "hash": "bf9b70557d6f0831f631447cfa288e5b1edb5bed25345ca2b5e9ee482b1d95c2"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/les4Opdracht1Klaar/index.html",
+            "size": 451,
+            "hash": "e1463773769c8543a1b316994c6fb90647e33eb0ce11d2c1f5a6d49f6badafc5"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/les4Opdracht1Klaar/script.js",
+            "size": 222,
+            "hash": "365520b3532bf511bbb8bdc81bfe77f1f8e1f3aee2c795e5f2ba3f0c5d4eba28"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/les4Opdracht1Klaar/style.css",
+            "size": 54,
+            "hash": "fd18df542b33c13328bf0552930ca8b1da4818ee7566423d118bcdb5171039a2"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/les5OpdrachtKlaar/index.html",
+            "size": 488,
+            "hash": "1ea044e1a0468b7204a360d851bdf692a5b554454f770bca42d79c5298dfe720"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/les5OpdrachtKlaar/script.js",
+            "size": 1234,
+            "hash": "69a56d3137476b791e13d8f7469625998d6bb482a09e1550cf7ec74793b1591f"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/les5OpdrachtKlaar/style.css",
+            "size": 77,
+            "hash": "518557d86bd059f59a484c5d0a4ac8cc696fba77791407e7a6be2726c259b987"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/les6Opdracht6Klaar/prijs.html",
+            "size": 675,
+            "hash": "1306a9270146566541eb6add8145f40ee1a76604f42e52abf2bff6c6fea5e050"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/les6Opdracht6Klaar/prijs.js",
+            "size": 433,
+            "hash": "664c007b2de1703186aee15020dcab30e70bfb8c74e62ecce9b0fa313b389ab0"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/les6Opdracht6Klaar/style.css",
+            "size": 273,
+            "hash": "22b45267792cc06ba3feb23bf8dad32f1c568d2163ba7998450f5759146e4846"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/week3/index.html",
+            "size": 687,
+            "hash": "1bdf2f8661da9d92f01e18b3a824c1e559f35e46390f11e382e911f0b3ead899"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/week3/script.js",
+            "size": 37,
+            "hash": "8bb22a81ff85ac70050da15cf793dbd1f6932075409ca09625c51ed2702bf7d0"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module2/week3/style.css",
+            "size": 80,
+            "hash": "90c529f6a384397ac75c4478fdacfb43b5c143d5688647f7e0817f5e3e78e586"
+        },
+        {
+            "type": "file",
+            "name": "media/prehistorie/les2/Tiger.jpg",
+            "size": 47251,
+            "hash": "6b6c4a1d381c4c7fca499e2f2ba1f12f9385be657f4352dc8fbda7ef26f8f39a"
+        },
+        {
+            "type": "file",
+            "name": "media/prehistorie/les2/Tiger.png",
+            "size": 5297,
+            "hash": "940e47ec8df730acb1709a227b4da11cdd1d3f1be58a6e7bc586d3739a7c3686"
+        },
+        {
+            "type": "file",
+            "name": "media/prehistorie/les2/index.html",
+            "size": 6521,
+            "hash": "2974291d05ac08f6e59532f62a0999cbbe67ca20b5f71695e8770b95c1ab1479"
+        },
+        {
+            "type": "file",
+            "name": "media/prehistorie/les2/style.css",
+            "size": 442,
+            "hash": "0374f221d081dd2b2ebd4f075bf4a654637c32819c08d33c93df56fca2bed230"
+        },
+        {
+            "type": "folder",
+            "name": "media/prehistorie/les3/bitmap.html"
+        },
+        {
+            "type": "file",
+            "name": "media/prehistorie/les3/index.html",
+            "size": 141523,
+            "hash": "03a0ae4e119d7cb2d9e8c04d6dbdf703933e0503a2528c9971d87ea3f8875627"
+        },
+        {
+            "type": "file",
+            "name": "media/prehistorie/les3/style.css",
+            "size": 36,
+            "hash": "281c7d0380d16a24faa105c71052e828ae005de753b3b8ce4f99893caf3e0691"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/oefeningen/HTML & CSS oefening 3/Index.html",
+            "size": 316,
+            "hash": "0f8954229587807f1681cbad92cc34115cb9904b83e5d3b707a5fc6a986a2963"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/oefeningen/HTML & CSS oefening 3/Style.css",
+            "size": 309,
+            "hash": "d7f17e55d89ff4e03e365de5cd555468a35fcea7685c7c5fd1fbc874536a6b58"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/oefeningen/HTML & CSS oefening 4/Index.html",
+            "size": 203,
+            "hash": "1c688073d769545f957da00d156a18d981fe27840012d7a5651afde2514ce7ea"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/oefeningen/HTML & CSS oefening 4/Style.css",
+            "size": 225,
+            "hash": "9862a1a7322d257c07b01de20b0145329e3b7a36a04e9f2b0c8e3c910fe78e81"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/oefeningen/Oefening 1/Index.html",
+            "size": 2987,
+            "hash": "bde1db8226739199a0db76925822cfc12e38091edb113ef7676f6febda014246"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/oefeningen/Oefening 1/Style.css",
+            "size": 130,
+            "hash": "b0ae9af282ba1332b362c8eda0ef5cc82e193fb3aec0a4a718f1adca6dd65191"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/opdrachten/Opdracht 1.1 1.2 1.3 Klaar/Style.css",
+            "size": 250,
+            "hash": "9e7234128fd98f441a329db91ca6ab231c0976206c39959acf74c3d8c141f9c7"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/opdrachten/Opdracht 1.1 1.2 1.3 Klaar/week1_opdr1.html",
+            "size": 845,
+            "hash": "4b99fa3b3ed367986a9763bee7eef524880c8170d894de296751599a58cffbae"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/opdrachten/Opdracht 1.1 1.2 1.3 Klaar/week1_opdr1_css.html",
+            "size": 1787,
+            "hash": "c1a4fa19cb2c215310222c44fc9cb6f4f0bdec51f52b34f9fc081d8b56a930a3"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/opdrachten/Opdracht 1.1 1.2 1.3 Klaar/week1_opdr1_html.html",
+            "size": 1793,
+            "hash": "d238bc6d505fd95be45fa432be3297aadf686ccb185df1ede6afe2533c22768e"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/opdrachten/Opdracht 2.1 Klaar/Index.html",
+            "size": 2454,
+            "hash": "899cdc54454163472c1d7f8b8736e16e6eea6410ca77e225e3be155b5c9cae16"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/opdrachten/Opdracht 2.1 Klaar/Style.css",
+            "size": 1944,
+            "hash": "b3c9388829ba16b79601e1fc3f32e061d2cb69ec9e1a611da0d0bef8353947b4"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/opdrachten/Opdracht 2.2 Klaar/Boomstructuur.drawio",
+            "size": 2551,
+            "hash": "31c376c45bc1580c5040e48b695e9e46518bf9efe350d85b5723c5c8dcb7eab8"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/opdrachten/Opdracht 2.2 Klaar/Boomstructuur.png",
+            "size": 32409,
+            "hash": "15309ecdfd47175fc750a86850b8690985068bd7f6bb86e60f2a74248aee6eb8"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/opdrachten/Opdracht 2.2 Klaar/Index.html",
+            "size": 278,
+            "hash": "e464efb5296a533c36f226c66828b01c22a9921e7600728026c8807d0ed1776d"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/opdrachten/Opdracht 2.2 Klaar/Style.css",
+            "size": 88,
+            "hash": "5ca453f4e58df97b8f9be83dcb2487e3ac986aa1d0bbb90743c9bcf923c2aa00"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/opdrachten/Opdracht 3.1 Klaar/Index.html",
+            "size": 1525,
+            "hash": "49c8b55b07f0af2f386bc42ea5f40d3c82ff5503c6d0876268575599a923f196"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/opdrachten/Opdracht 3.1 Klaar/Style.css",
+            "size": 65,
+            "hash": "ae55a75fd3e7f2000c49960fe3140eb1d2211619453cf72bb0c43e25eb7411aa"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/opdrachten/Opdracht 3.2 Klaar/Alpaca sounds.mp3",
+            "size": 483460,
+            "hash": "0a8752d2308e0301147deb4093c317045362fc6f08d1345e11dc8f33b1b02003"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/opdrachten/Opdracht 3.2 Klaar/Index.html",
+            "size": 1206,
+            "hash": "30c6931d9f94e695222767ddb451467a37f90ae62acb94e3f51c1ed7c4ba9fbe"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/opdrachten/Opdracht 3.2 Klaar/Style.css",
+            "size": 208,
+            "hash": "d89f979452cb9ddd2af5c3d3672f879de10908662946905db4fbf859715853e6"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/opdrachten/Opdracht 3.2 Klaar/alpaca video.mp4",
+            "size": 4438680,
+            "hash": "06fd8e91cff75bd553c121cd35db5d8eda5e77a099575c0c932c62f6bb457d70"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/opdrachten/eindopdrachtKlaar/index87243.html",
+            "size": 2389,
+            "hash": "029f325d8871ab22ab5d418fa183363eb90e197300e40f5c3ba17b25ebfbc373"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/opdrachten/eindopdrachtKlaar/style.css",
+            "size": 77,
+            "hash": "518557d86bd059f59a484c5d0a4ac8cc696fba77791407e7a6be2726c259b987"
+        },
+        {
+            "type": "file",
+            "name": "basis1/module1/opdrachten/temp/index.html",
+            "size": 345,
+            "hash": "70688dae76daec75047b245b98b655a0c31d25cf7b3f519f64713ee0e7169bbe"
+        },
+        {
+            "type": "folder",
+            "name": "media/prehistorie/les3/bitmap.html/__MACOSX"
+        },
+        {
+            "type": "file",
+            "name": "media/prehistorie/les3/bitmap.html/bitmap.html",
+            "size": 26270,
+            "hash": "eeedb38abbe37386a8a331fea4a0651a3380b018aab2db810e76e95b5abf767a"
+        },
+        {
+            "type": "file",
+            "name": "media/prehistorie/les3/bitmap.html/__MACOSX/._bitmap.html",
+            "size": 176,
+            "hash": "313c43673ed5e58b6f0023a318274f20ff74c67d7b01c6b114aab1c2c85aa1f0"
+        }
+    ]
+}
