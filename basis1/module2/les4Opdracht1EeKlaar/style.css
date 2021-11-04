@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+p{
+    color: white;
+    display: inline;
+}
+
+#result{
+    color: white;
+}
+
+label{
+    margin-left: 4px;
+    color: white;
+}
