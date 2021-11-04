@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+
+pre{
+    @import url("https://fonts.googleapis.com/css?family=Inconsolata|Roboto+Mono|Ubuntu+Mono|Cutive+Mono");
+    display: inline-block;
+    font-size: 7px;
+    text-align: center;
+    font-family: Ubuntu Mono, monospace !important;
+    text-rendering: optimizeSpeed;
+
+    font-size: 7px;
+    font-family: &quot;Ubuntu Mono&quot;;
+    background-color: black;
+    color: white;
+    line-height: 7px;
+}
