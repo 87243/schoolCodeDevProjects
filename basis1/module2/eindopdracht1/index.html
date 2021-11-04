@@ -12,14 +12,33 @@
     <a href="../../../">Terug</a>
     <br>
     <br>
-    <p>Wat is uw naam? </p><input id="input1" type="text" oninput="function1()">
+    <p>Wat is uw naam? </p><input id="nm" type="text"><p id="nmr"></p>
     <br>
     <br>
-    <p>Wat is uw leeftijd? </p><input id="input2" type="text" oninput="function2()">
+    <p>Wat is uw leeftijd? </p><input id="ld" type="number"><p id="ldr"></p>
     <br>
     <br>
-    <p>Wat zijn uw symptonen? </p><input id="input3" type="text" oninput="function3()">
-    <input id="input4" type="text" oninput="function4()">
-    <input id="input5" type="text" oninput="function5()">
+    <p>Wat zijn uw symptonen? </p>
+    <br>
+    <br>
+    <input type="checkbox" id="sn1"><p>Niezen</p>
+    <br>
+    <input type="checkbox" id="sn2"><p>Verdkouwdheid</p>
+    <br>
+    <input type="checkbox" id="sn3"><p>Hoofdpijn</p>
+    <br>
+    <input type="checkbox" id="sn4"><p>Hoesten</p>
+    <br>
+    <input type="checkbox" id="sn5"><p>Geen ruik/smaak</p>
+    <br>
+    <br>
+    <button id="check" onclick="check()">Check</button>
+    <br>
+    <br>
+    <p id="result"></p>
+    <br>
+    <p id="result2"></p>
+    <br>
+    <p id="result3"></p>
 </body>
 </html>

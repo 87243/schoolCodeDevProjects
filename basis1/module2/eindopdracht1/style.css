@@ -10,3 +10,23 @@ a{
 p{
     display: inline;
 }
+
+#nmr{
+    color: red;
+}
+
+#ldr{
+    color: red;
+}
+
+#result{
+    color: red;
+}
+
+#result2{
+    color: orange;
+}
+
+#result3{
+    color: orange;
+}
