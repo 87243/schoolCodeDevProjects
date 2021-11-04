@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+#a {
+    color: green;
+    margin-top: 0px;
+}
+
+P {
+    color: white;
+    text-align: center;
+}

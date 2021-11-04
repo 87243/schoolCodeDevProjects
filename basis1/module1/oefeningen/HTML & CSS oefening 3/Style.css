@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.a {
+    color: yellow;
+    margin-top: 0px;
+}
+
+.b {
+    color: white;
+    margin-top: 0px;
+}
+
+.groter {
+    font-size: 20px;
+}
+
+P {
+    color: #FF0000;
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Style.css" type="text/css">
+    </head>
+    <body>
+        <a class="a0" href="../../../../../">Terug</a>
+        <br>
+        <br>
+        <form class="form1" name="inschrijfform method=" action="https://bijlsma.ict-lab.nl/basis1b/form_verwerk.php" method="POST">
+            Studentnummer: <input type="number" name="Studentnummer" id="studentnummer"required/>
+            <br/><br/>
+
+            Naam: <input type="text" id="naam" name="Naam" required/>
+            <br/><br/>
+
+            Geslacht: <input type="radio" id="geslacht_man" name="Geslacht" value="Man" required/>Man
+            <input type="radio" id="geslacht_vrouw" name="Geslacht" value="Vrouw" required/>Vrouw
+            <br/><br/>
+
+            Leeftijd: <input type="number" id="leeftijd" name="Leeftijd" required/>
+            <br/><br/>
+
+            E-Mail: <input type="email" id="email" required/>
+            <br/><br/>
+
+            Klas:
+                <select name="Klas" id="Klas" required>
+                <option value="D1A1">D1A1</option>
+                <option value="D1A2">D1A2</option>
+                <option value="ABC">ABC</option>
+                <option value="ABD">ABD</option>
+                <option value="ABE">ABE</option>
+                </select>
+            <br/><br/>
+
+            Wachtwoord: <input type="password" id=wachtwoord name="Wachtwoord" required/>
+            <br/><br/>
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

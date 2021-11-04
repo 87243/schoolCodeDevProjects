@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+
+.h10{
+    color: white;
+}
+
+.p10{
+    color: white;
+}
+
+.li0{
+    color: white;
+}
+
+.td{
+    width: 15%;
+}
+
+.td1{
+    color: white;
+}
+
+.th0{
+    color: white;
+    text-align: left;
+}
+
+.bold{
+    font-weight: bold;
+}
