@@ -3,6 +3,10 @@ body{
     color: white;
 }
 
+a{
+    color: cyan;
+}
+
 p{
     display: inline;
 }
