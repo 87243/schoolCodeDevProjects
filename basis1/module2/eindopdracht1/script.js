@@ -1,4 +1,4 @@
-function check(){
+function check() {
     let gotnaam = "false";
     let gotleeftijd = "false";
     document.getElementById("result").innerHTML = "";
@@ -10,11 +10,9 @@ function check(){
     console.log("naam= "+naam);
     if (naam == ""){
         document.getElementById("nmr").innerHTML = " <-- Vul hier uw naam in (verplicht)";
-    }
-    else if (!isNaN(naam)){
+    } else if (!isNaN(naam)) {
         document.getElementById("nmr").innerHTML = " <-- Vul hier uw naam in (verplicht)";
-    }
-    else{
+    } else {
         document.getElementById("nmr").innerHTML = "";
         gotnaam = "true";
         console.log("gotnaam= "+gotnaam);
@@ -26,11 +24,10 @@ function check(){
         document.getElementById("ldr").innerHTML = "";
         gotleeftijd = "true";
         console.log("gotleeftijd= "+gotleeftijd);
-    }
-    else{
+    } else {
         document.getElementById("ldr").innerHTML = " <-- Vul hier uw leeftijd in (verplicht)";
     }
-
+    // checking symptom's 
     let symptoon1 = document.getElementById("sn1").checked;
     let symptoon2 = document.getElementById("sn2").checked;
     let symptoon3 = document.getElementById("sn3").checked;
@@ -74,8 +71,7 @@ function check(){
                     symptonen3 = symptonen3+"Geen ruik/smaak\n";
                     document.getElementById("result3").innerHTML = symptonen2;
                 }
-            }
-            else{
+            } else {
                 document.getElementById("result").innerHTML = "";
                 document.getElementById("result2").innerHTML = "";
             }
@@ -110,8 +106,7 @@ function check(){
                     document.getElementById("result3").innerHTML = symptonen2;
                 }
                 window.alert("Waarschuwing!\nSymptonen:\n"+symptonen3);
-            }
-            else{
+            } else {
                 document.getElementById("result").innerHTML = "";
                 document.getElementById("result2").innerHTML = "";
             }
