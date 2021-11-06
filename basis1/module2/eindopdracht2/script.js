@@ -1,24 +1,32 @@
+//list of all variables:
+//HTML:
+//ID's:
+//moneyLeftHTML, addMinisterieInputHTML, addMinisterieButtonHTML, ministeries, ministerieMoney+[inputId], input+[inputId], ainput+[inputId]
+//classes:
+//input
+//JS:
+//formatter, moneyLeftJS, ministeriesJS, inputId, addMinisterieIJS, clicked, value1, value2, i, mMJS, mMJSV
+
+//format bedrag
 const formatter = new Intl.NumberFormat('nl-NL', {
     style: 'currency',
     currency: 'EUR',
     minimumFractionDigits: 0
 })
 
-const unformatter = new Intl.NumberFormat('nl-NL', {
-    style: 'decimal',
-})
-
-let moneyJS = 330000000;
+//clear variables on page load/reload
+let moneyLeftJS = 330000000;
 let ministeriesJS = "";
 let inputId = 0;
-document.getElementById("money").innerHTML = "Jouw aantal geld over = "+formatter.format(moneyJS);
-console.log("Jouw aantal geld over = "+formatter.format(moneyJS));
-console.log("moneyJS= "+moneyJS)
+document.getElementById("moneyLeftHTML").innerHTML = "Jouw aantal geld over = "+formatter.format(moneyLeftJS);
+console.log("Jouw aantal geld over = "+formatter.format(moneyLeftJS));
+console.log("moneyLeftJS= "+moneyLeftJS)
 
-function addMinisterieBJS() {
-    moneyJS = 330000000;
-    document.getElementById("money").innerHTML = "Jouw aantal geld over = "+formatter.format(moneyJS);
-    let addMinisterieIJS = document.getElementById("addMinisterieI").value;
+//add ministerie on button click
+function addMinisterieButtonFunction() {
+    moneyLeftJS = 330000000;
+    document.getElementById("moneyLeftHTML").innerHTML = "Jouw aantal geld over = "+formatter.format(moneyLeftJS);
+    let addMinisterieIJS = document.getElementById("addMinisterieInputHTML").value;
     inputId = inputId+1;
     // let ministerieMoney0,inputId = 0;
     ministeriesJS = ministeriesJS+"<p>"+addMinisterieIJS+"</p><p id='ministerieMoney"+inputId+"'>0</p><input class='input' id='input"+inputId+"' type='number'><button id='ainput"+inputId+"' onclick='sendMoneyB(this.id)'>Verstuur geld</button><br>";
@@ -26,6 +34,7 @@ function addMinisterieBJS() {
     console.log("addMinisterieIJS= "+addMinisterieIJS+" | inputId= "+inputId+" | ministeriesJS= "+ministeriesJS);
 }
 
+//send money to ministerie on button click
 function sendMoneyB(clicked_id){
     let clicked = clicked_id.substring(1); //=input1
     console.log("clicked.substring(1)= "+clicked);
@@ -51,8 +60,8 @@ function sendMoneyB(clicked_id){
     console.log(value2);
     console.log(document.getElementById(mMJS).innerHTML);
     
-    // moneyJS = unformatter.format(moneyJS) - unformatter.format(document.getElementById(clicked).valueAsNumber);
-    moneyJS = moneyJS - document.getElementById(clicked).valueAsNumber;
-    // document.getElementById("money").innerHTML = "Jouw aantal geld over = "+formatter.format(moneyJS);
-    document.getElementById("money").innerHTML = "Jouw aantal geld over = "+formatter.format(moneyJS);
+    // moneyLeftJS = unformatter.format(moneyLeftJS) - unformatter.format(document.getElementById(clicked).valueAsNumber);
+    moneyLeftJS = moneyLeftJS - document.getElementById(clicked).valueAsNumber;
+    // document.getElementById("money").innerHTML = "Jouw aantal geld over = "+formatter.format(moneyLeftJS);
+    document.getElementById("moneyLeftHTML").innerHTML = "Jouw aantal geld over = "+formatter.format(moneyLeftJS);
 }
