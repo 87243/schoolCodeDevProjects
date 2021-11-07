@@ -31,6 +31,8 @@ let ministerieMoney10JS = 0;
 let ministerieMoney11JS = 0;
 let ministerieMoney12JS = 0;
 
+let ministerieMoney1JSInput = 0;
+
 document.getElementById("moneyLeftHTML").innerHTML = "Jouw aantal geld over = "+moneyLeftJSFormatted;
 
 //send money to ministerie on button click (proper)
@@ -39,21 +41,159 @@ function sendMoneyB2(){
     let allMoneySendInputs = document.querySelectorAll("input");
     let value2 = 0;
 
+    let moneySendInput1HigherThan0 = false;
+    let moneySendInput2HigherThan0 = false;
+    let moneySendInput3HigherThan0 = false;
+    let moneySendInput4HigherThan0 = false;
+    let moneySendInput5HigherThan0 = false;
+    let moneySendInput6HigherThan0 = false;
+    let moneySendInput7HigherThan0 = false;
+    let moneySendInput8HigherThan0 = false;
+    let moneySendInput9HigherThan0 = false;
+    let moneySendInput10HigherThan0 = false;
+    let moneySendInput11HigherThan0 = false;
+    let moneySendInput12HigherThan0 = false;
+
     //sum of all inputs
     let value3 = 0;
+    let value4 = 0;
     for(let i = 0; i < allMoneySendInputs.length; i++) {
-        value2 += allMoneySendInputs[i].valueAsNumber;
-        if(isNaN(value2) == false){
-            value3 = value2;
-        }
-        else if(isNaN(value2) == true){
+        value2 += allMoneySendInputs[i].valueAsNumber; //check every input
+        console.log();
+        console.log("value2= "+value2);
+        console.log("i= "+i);
+        //if the input is not a NaN sum the input
+        if(isNaN(value2) == false){ //if an input is not a NaN
+            value4 = value2;
+            value3 = value2; //sum of all inputs
+            console.log(value3);
+            console.log("geen NaN");
 
+            if(i == 0){
+                ministerieMoney1JS = allMoneySendInputs[0].valueAsNumber
+            }
+        }
+        //if the input is a NaN make it a 0 | now it adds a 0 to the sum instead of making the input a 0
+        else if(isNaN(value2) == true){ //if an input is a NaN
+            value4 = value4 + 0;
+            console.log(value4);
+            value3 = value4;
+            console.log(value3);
+            console.log("wel NaN");
+
+            if(i == 0){
+                ministerieMoney1JS = 0;
+            }
         }
         else{
-            window.alert("Dat mag niet");
+            console.log("iets klopt niet1");
         }
+
+        if(i == 0){
+            if(ministerieMoney1JS >= 0){
+                moneySendInput1HigherThan0 = true
+            }
+        }
+        if(i == 1){
+            if(allMoneySendInputs[i].valueAsNumber >= 0){
+                moneySendInput2HigherThan0 = true
+            }
+        }
+        if(i == 2){
+            if(allMoneySendInputs[i].valueAsNumber >= 0){
+                moneySendInput3HigherThan0 = true
+            }
+        }
+        if(i == 3){
+            if(allMoneySendInputs[i].valueAsNumber >= 0){
+                moneySendInput4HigherThan0 = true
+            }
+        }
+        if(i == 4){
+            if(allMoneySendInputs[i].valueAsNumber >= 0){
+                moneySendInput5HigherThan0 = true
+            }
+        }
+        if(i == 5){
+            if(allMoneySendInputs[i].valueAsNumber >= 0){
+                moneySendInput6HigherThan0 = true
+            }
+        }
+        if(i == 6){
+            if(allMoneySendInputs[i].valueAsNumber >= 0){
+                moneySendInput7HigherThan0 = true
+            }
+        }
+        if(i == 7){
+            if(allMoneySendInputs[i].valueAsNumber >= 0){
+                moneySendInput8HigherThan0 = true
+            }
+        }
+        if(i == 8){
+            if(allMoneySendInputs[i].valueAsNumber >= 0){
+                moneySendInput9HigherThan0 = true
+            }
+        }
+        if(i == 9){
+            if(allMoneySendInputs[i].valueAsNumber >= 0){
+                moneySendInput10HigherThan0 = true
+            }
+        }
+        if(i == 10){
+            if(allMoneySendInputs[i].valueAsNumber >= 0){
+                moneySendInput11HigherThan0 = true
+            }
+        }
+        if(i == 11){
+            if(allMoneySendInputs[i].valueAsNumber >= 0){
+                moneySendInput12HigherThan0 = true
+            }
+        }
+
         value2 = value3;
+        console.log("sum of all inputs= "+value3);
     }
+    console.log("sum of all inputs2= "+value3);
+    console.log("moneySendInput1HigherThan0= "+moneySendInput1HigherThan0);
+    console.log("moneySendInput2HigherThan0= "+moneySendInput2HigherThan0);
+    console.log("moneySendInput3HigherThan0= "+moneySendInput3HigherThan0);
+    console.log("moneySendInput4HigherThan0= "+moneySendInput4HigherThan0);
+    console.log("moneySendInput5HigherThan0= "+moneySendInput5HigherThan0);
+    console.log("moneySendInput6HigherThan0= "+moneySendInput6HigherThan0);
+    console.log("moneySendInput7HigherThan0= "+moneySendInput7HigherThan0);
+    console.log("moneySendInput8HigherThan0= "+moneySendInput8HigherThan0);
+    console.log("moneySendInput9HigherThan0= "+moneySendInput9HigherThan0);
+    console.log("moneySendInput10HigherThan0= "+moneySendInput10HigherThan0);
+    console.log("moneySendInput11HigherThan0= "+moneySendInput11HigherThan0);
+    console.log("moneySendInput12HigherThan0= "+moneySendInput12HigherThan0);
+
+    //check if input1 is higher than 0, not lower than 0 and is not a NaN
+    // console.log("input1= "+allMoneySendInputs[0].valueAsNumber);
+    // if(isNaN(allMoneySendInputs[0].valueAsNumber) == false && allMoneySendInputs[0].valueAsNumber >= 0){
+    //     console.log("0 or higher");
+    // }
+    // else if(isNaN(allMoneySendInputs[0].valueAsNumber) == true){
+    //     console.log("it's a NaN")
+    // }
+    // else{
+    //     console.log("not 0 or higher");
+    // }
+
+    //check if all inputs are higher than 0, not lower than 0 and is not a NaN
+    if(isNaN(allMoneySendInputs[0].valueAsNumber) == false && allMoneySendInputs[0].valueAsNumber >= 0 && isNaN(allMoneySendInputs[1].valueAsNumber) == false && allMoneySendInputs[1].valueAsNumber >= 0){
+        console.log("0 or higher");
+    }
+    else if(isNaN(allMoneySendInputs[0].valueAsNumber) == true){
+        console.log("it's a NaN")
+    }
+    else{
+        console.log("not 0 or higher");
+    }
+
+
+    //problem now: if you type 1 in input1 but nothing in input2 it doesn't work because input2 is a NaN even though input1 is a number higher than 0
+
+
     moneyAddExpected = 0;
     moneyAddExpected = value3;
     let moneyLeftJSExpected = moneyLeftJS - moneyAddExpected;
