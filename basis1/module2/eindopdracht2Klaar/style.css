@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+button{
+    margin-left: 10px;
+}
+
+p{
+    display: inline-block;
+    padding-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 21.8px;
+}
+
+#div0{
+    position: absolute;
+    width: 736px;
+    height: 40%;
+}
+
+#div1{
+    float: left;
+    width: 486px;
+    height: 100%;
+}
+
+#div2{
+    float: left;
+    width: 250px;
+    height: 100%;
+}
+
+.input{
+    block-size: 15px;
+    width: 85px;
+}
+
+button{
+    block-size: 20px;
+}
+
+a{
+    color: cyan;
+}
