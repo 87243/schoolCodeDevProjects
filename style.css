@@ -35,6 +35,10 @@ p{
     color: red;
 }
 
+.p3{
+    color: orange;
+}
+
 li{
     list-style-type: "⮡  ";
 }
