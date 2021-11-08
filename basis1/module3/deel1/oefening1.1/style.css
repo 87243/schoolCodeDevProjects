@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+/* #div1{
+    border: solid blue 10px;
+    padding: 50px;
+    margin-bottom: 30px;
+} */
+
+#tekst1{
+    text-align: center;
+    width: 100px;
+    border: solid blue 10px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+/* #div2{
+    margin-left: 500px;
+    border: solid blue 10px;
+    padding: 50px;
+} */
+
+#tekst2{
+    text-align: center;
+    width: 100px;
+    margin-left: 150px;
+    border: solid blue 10px;
+    padding: 50px;
+    border-radius: 20px;
+}

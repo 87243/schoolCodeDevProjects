@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+header{
+    margin: 50px 5% 15px 5%;
+    outline: solid white 2px;
+    padding: 25px 0;
+    text-align: center;
+}
+
+#divCenter{
+    margin: 0 5% 15px 5%;
+    /* outline: solid white; */
+    height: 1000px;
+}
+
+#divLeft{
+    float: left;
+    outline: solid white 2px;
+    width: 39%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text1{
+    margin-top: 0;
+}
+
+#divRight{
+    float: right;
+    outline: solid white 2px;
+    width: 59%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text2{
+    margin-top: 0;
+}
+
+footer{
+    margin: 0 5% 15px 5%;
+    outline: solid white 2px;
+    padding: 25px 0;
+    text-align: center;
+}
