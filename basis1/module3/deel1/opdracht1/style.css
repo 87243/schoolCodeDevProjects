@@ -8,16 +8,23 @@ body{
 }
 
 header{
-    margin: 50px 5% 15px 5%;
+    margin: 50px auto 15px auto;
     outline: solid white 2px;
     padding: 25px 0;
     text-align: center;
+    width: 90%;
+    min-width: 425px;
+    max-width: 980px;
 }
 
 #divCenter{
-    margin: 0 5% 15px 5%;
+    margin: 0 auto 15px auto;
     /* outline: solid white; */
-    height: 1000px;
+    height: calc(100vh - 231px);
+    min-height: 375px;
+    min-width: 425px;
+    max-width: 980px;
+    width: 90%;
 }
 
 #divLeft{
@@ -50,8 +57,11 @@ header{
 }
 
 footer{
-    margin: 0 5% 15px 5%;
+    margin: 0 auto 15px auto;
     outline: solid white 2px;
     padding: 25px 0;
     text-align: center;
+    min-width: 425px;
+    max-width: 980px;
+    width: 90%;
 }
