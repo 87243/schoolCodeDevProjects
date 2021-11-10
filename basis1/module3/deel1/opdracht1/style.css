@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: black;
     color: white;
@@ -19,11 +23,12 @@ header{
 #divLeft{
     float: left;
     outline: solid white 2px;
-    width: 39%;
+    width: 40%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 30px;
 }
 
 #text1{
@@ -33,7 +38,7 @@ header{
 #divRight{
     float: right;
     outline: solid white 2px;
-    width: 59%;
+    width: calc(60% - 30px);
     height: 100%;
     display: flex;
     justify-content: center;
