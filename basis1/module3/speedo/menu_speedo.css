@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkgrey;
+}
+
+#sec1 {
+    background-image: url("/images/rotterdam.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#sec2 {
+    padding: 20px;
+}
+
+header {
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+.nav {
+    background-color: rgba(128, 0, 128, 0.7);
+    height: 50px;
+    border-top: 2px dotted plum;
+    border-bottom: 2px dotted plum;
+    margin-top: 10px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 10px;
+}
+
+.nav ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0 20px 0 20px;
+}
+
+.nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.nav ul li ul {
+    display: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    line-height: 50px;
+    display: block;
+    color: powderblue;
+    padding: 0 10px;
+}
+
+.nav ul li a:hover {
+    background-color: purple;
+}
