@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+
+header{
+    margin: 10px 10px 0 10px;
+    width: calc(100% - 20px);
+    height: 50px;
+
+    outline: 2px solid white;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+}
