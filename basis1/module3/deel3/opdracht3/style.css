@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1;
+}
+
+#grid > div{
+    background-color: grey;
+    padding: 1em;
+}
+
+#grid > div:nth-child(odd){
+    background-color: darkgrey;
+}
