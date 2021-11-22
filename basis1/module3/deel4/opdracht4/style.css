@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+table{
+    outline: 2px solid white;
+}
+
+thead{
+    
+}
+
+th, td{
+    outline: 1px solid #444;
+    padding: 5px 10px;
+}
+
+tr:hover{
+    background-color: #333;
+    color: yellow;
+}
+
+p{
+    display: inline;
+}
