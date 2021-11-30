@@ -1,4 +1,6 @@
 *{
+    margin: 0;
+    /* padding: 0; */
     box-sizing: border-box;
 }
 
@@ -6,10 +8,11 @@ body{
     background-color: black;
     color: white;
 }
-
+/* Header: */
 header{
-    margin: 50px auto 15px auto;
+    margin: 10px auto 15px auto;
     outline: solid white 2px;
+    border-radius: 10px;
     padding: 25px 0;
     text-align: center;
     width: 90%;
@@ -17,43 +20,97 @@ header{
     max-width: 980px;
 }
 
+/* Navbar: */
 nav{
-    top: 0;
+    top: 2px;
     margin: 0 auto 15px auto;
-    outline: solid red 2px;
+    outline: solid white 2px;
     width: 90%;
-    height: 30px;
-    background-color: grey;
+    background-color: #222;
     min-width: 425px;
     max-width: 980px;
     position: sticky;
+    border-radius: 10px;
+    padding-left: 10px;
 }
 
-ul{
-    font-size: 0;
-    padding-left: 0;
+div{
+    display:inline ;
 }
 
-li{
-    width: 75px;
-    height: 30px;   
-    background-color: green;
-    display:inline-block;
-    text-align: center;
-    font-size: 20px;
-    padding-top: 2px;
+button{
+    background: none;
+	color: inherit;
+	border: none;
+	margin: 10px;
+    padding: 0;
+	font: inherit;
+	cursor: pointer;
 }
 
 a{
     color: white;
     text-decoration: none;
+    background: none;
+	color: inherit;
+	border: none;
+	margin: 10px;
+    padding: 0;
+	font: inherit;
+	cursor: pointer;
+    display: inline-block;
 }
 
-    #divCenter{
+li > a{
+    display: inline-block;
+    padding: 10px;
+    width: 150px;
+}
+
+.home, .overMij, .contact{
+    position: relative;
+}
+
+ul{
+    position: absolute;
+    margin-top: 30px;
+    padding: 0;
+    list-style: none;
+    background-color: #222;
+    border-radius: 10px;
+    margin-left: -80px;
+    opacity: 0;
+    pointer-events: none;
+    display: inline-block;
+}
+
+li{
+    
+}
+
+li:hover{
+    background-color: #444;
+    border-radius: 10px;
+}
+
+a:hover{
+    
+}
+
+.overMij > a:hover + ul{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.invisible{
+    color: rgba(0, 0, 0, 0);
+}
+
+/* Div center: */
+#divCenter{
     margin: 0 auto 15px auto;
     outline: solid white 2px;
-    /* outline: solid white; */
-    height: calc(100vh - 231px);
+    height: calc(100vh - 235px);
     min-height: 375px;
     min-width: 425px;
     max-width: 980px;
@@ -61,8 +118,10 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 
+/* Footer: */
 footer{
     margin: 0 auto 15px auto;
     outline: solid white 2px;
@@ -71,4 +130,24 @@ footer{
     min-width: 425px;
     max-width: 980px;
     width: 90%;
+    height: calc(100% - 211px);
+    border-radius: 10px;
+}
+
+#divLorem{
+    margin: 0 auto 15px auto;
+    outline: solid white 2px;
+    height: 500px;
+    min-height: 375px;
+    min-width: 425px;
+    max-width: 980px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#divLorem > p{
+    margin: 20px;
 }
