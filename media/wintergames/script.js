@@ -1,20 +1,21 @@
 function setup() {
-    createCanvas(720, 400);
+    createCanvas(500, 500);
   }
 
   function draw() {
     background(0);
     push();
-    fill(255, 204, 0);
+    // fill(255, 204, 0);
+    fill(mouseX, mouseY, mouseX*mouseY);
     translate(width * 0.5, height * 0.5);
-    //translate(mouseX, mouseY);
-    rotate(frameCount / -0.3);
+    // translate(mouseX, mouseY);
+    rotate(frameCount / mouseX);
     star(0, 0, 30, 70, 5);
     pop();
   }
 
   function mouseMoved() {
-    console.log(mouseX, mouseY);
+    // console.log(mouseX, mouseY);
   }
 
   function star(x, y, radius1, radius2, npoints) {
