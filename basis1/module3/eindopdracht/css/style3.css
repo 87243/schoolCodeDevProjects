@@ -18,6 +18,6 @@
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    /* background-color: rgba(0, 0, 0, 0.75); */
-    /* outline: solid 1px #555; */
+    height: calc(50% - 162px);
+    min-height: 300px;
 }
