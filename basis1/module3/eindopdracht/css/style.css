@@ -37,10 +37,6 @@ header{
     margin-left: 10px;
 }
 
-.developmentBranch{
-    color: orange;
-}
-
 /* Dropdown: */
 #dropdown{
     float: right;
@@ -60,8 +56,8 @@ header{
     position: absolute;
     opacity: 0;
     pointer-events: none;
-    width: 100%;
     margin-left: -23px;
+    display: block;
 }
 
 #dropdown ul li:hover ul{
