@@ -22,6 +22,30 @@
     outline: solid 1px #555;
 }
 
-#divTable > table{
+/* #divTable > table{
     
+} */
+
+#divTable > table > thead > tr > th{
+    outline: solid 2px white;
+    padding: 10px;
+    background-color: #444;
+}
+
+#divTable > table > tbody > tr > td{
+    outline: solid 2px white;
+    padding: 10px;
+}
+
+#divTable > table > tbody > tr:nth-child(odd){
+    background-color: #222;
+}
+
+#divTable > table > tbody > tr:nth-child(even){
+    background-color: #444;
+}
+
+#divTable > table > tbody > tr:hover{
+    background-color: #999;
+    color: aqua;
 }

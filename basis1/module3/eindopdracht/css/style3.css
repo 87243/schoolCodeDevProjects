@@ -6,3 +6,18 @@
 #dropdown > ul > li > ul > li:nth-child(3) > a{
     background-color: #038857;
 }
+
+/* Youtube video: */
+#divIframe{
+    z-index: 1;
+    position: absolute;
+    margin-top: 100px;
+    min-width: 1005px;
+    max-width: 75%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: rgba(0, 0, 0, 0.75); */
+    /* outline: solid 1px #555; */
+}
