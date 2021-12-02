@@ -2,9 +2,6 @@ body{
     background-color: black;
     color: white;
     margin: 0;
-    /* background-image: url("../photos/forest.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 /* Sticky Header & navbar: */
@@ -40,7 +37,6 @@ header{
 /* Dropdown: */
 #dropdown{
     float: right;
-    /* display: inline-block; */
 }
 
 #dropdown ul{
@@ -56,7 +52,7 @@ header{
     position: absolute;
     opacity: 0;
     pointer-events: none;
-    margin-left: -23px;
+    margin-left: 55px;
     display: block;
 }
 

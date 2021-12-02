@@ -11,7 +11,7 @@
 #divForm{
     z-index: 1;
     position: absolute;
-    margin-top: 200px;
+    margin-top: 100px;
     min-width: 1005px;
     max-width: 75%;
     left: 0;
@@ -21,7 +21,16 @@
 }
 
 fieldset{
+    margin: 0 auto 0 auto;
     background-color: rgba(0, 0, 0, 0.75);
+    width: 280px;
+}
+
+fieldset > legend{
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 1px 5px;
+    outline: white solid 1px;
+    font-size: x-large;
 }
 
 fieldset > form > div{
@@ -29,7 +38,7 @@ fieldset > form > div{
 }
 
 fieldset > form > div > label{
-    width: 100px;
+    width: 120px;
     display: inline-block;
     text-align: right;
     margin-right: 10px;

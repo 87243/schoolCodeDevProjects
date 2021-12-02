@@ -18,23 +18,21 @@
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(0, 0, 0, 0.75);
-    outline: solid 1px #555;
 }
 
-/* #divTable > table{
-    
-} */
+#divTable > table{
+    margin: 0 auto 0 auto;
+}
 
 #divTable > table > thead > tr > th{
     outline: solid 2px white;
-    padding: 10px;
+    padding: 10px 20px;
     background-color: #444;
 }
 
 #divTable > table > tbody > tr > td{
     outline: solid 2px white;
-    padding: 10px;
+    padding: 10px 20px 10px 10px;
 }
 
 #divTable > table > tbody > tr:nth-child(odd){
