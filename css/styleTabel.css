@@ -3,7 +3,7 @@
     pointer-events: none;
 }
 
-#dropdown > ul > li > ul > li:nth-child(2) > a{
+#dropdown > ul > li > ul > li:nth-child(2) > a, #dropdown > ul > li:nth-child(2) > a{
     background-color: #038857;
 }
 
@@ -28,6 +28,23 @@
     outline: solid 2px white;
     padding: 10px 20px;
     background-color: #444;
+}
+
+#divTable > table > thead > tr > th:nth-child(2):hover{
+    background-color: #999;
+    color: aqua;
+}
+
+#divTable > table > thead > tr > th:nth-child(2) > .arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+#divTable > table > thead > tr > th:nth-child(2) > .up{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
 }
 
 #divTable > table > tbody > tr > td{
