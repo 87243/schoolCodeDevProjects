@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#divP{
+    z-index: 1;
+    margin-top: 100px;
+    /* min-width: 1005px; */
+    /* max-width: 75%; */
+    left: 0;
+    right: 0;
+}
+
+#divP > p{
+    text-align: center;
+}
+
+/* Table: */
+#divTable{
+    z-index: 1;
+    margin-top: 100px;
+    left: 0;
+    right: 0;
+}
+
+#divTable > table{
+    margin: 0 auto 0 auto;
+}
+
+#divTable > table > thead > tr > th{
+    outline: solid 2px white;
+    padding: 10px 20px;
+    background-color: #444;
+}
+
+#divTable > table > tbody > tr > td{
+    outline: solid 2px white;
+    padding: 10px 20px 10px 10px;
+}
+
+#divTable > table > tbody > tr:nth-child(odd){
+    background-color: #222;
+}
+
+#divTable > table > tbody > tr:nth-child(even){
+    background-color: #444;
+}
+
+#divTable > table > tbody > tr:hover,
+#divTable > table > thead > tr > th:nth-child(2):hover{
+    background-color: #999;
+    color: aqua;
+}
+
+/* Arrows: */
+#thAge > i{
+    margin-left: 5px;
+}
+
+.arrow {
+    border: solid aqua;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+  
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
