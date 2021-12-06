@@ -82,7 +82,6 @@
 #divContent{
     z-index: 1;
     position: absolute;
-    margin-top: 100px;
     min-width: 1005px;
     max-width: 1400px;
     width: 75%;
@@ -94,8 +93,21 @@
 
 #divContent > img{
     width: 100%;
+    position: absolute;
 }
 
-#divContent > img{
-    
+#divContent > div{
+    position: absolute;
+    width: 100%;
+    margin-top: 75px;
+}
+
+#divContent > div > p{
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.30);
+    text-align: center;
+    width: 680px;
+    left: 0;
+    right: 0;
+    margin: 0 auto 0 auto;
 }

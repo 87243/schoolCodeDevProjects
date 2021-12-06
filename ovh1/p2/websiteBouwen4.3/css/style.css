@@ -11,7 +11,8 @@ header{
     height: 50px;
     /* border: solid rgb(9, 255, 0) 1px; */
     min-width: 1005px;
-    max-width: 75%;
+    max-width: 1400px;
+    width: 75%;
     margin: 10px auto 0 auto;
     background-color: rgba(0, 0, 0, 0.75);
     z-index: 99;
@@ -53,40 +54,59 @@ header{
     position: absolute;
     opacity: 0;
     pointer-events: none;
-    margin-left: 55px;
+    margin-left: 2px;
     display: block;
 }
 
-#dropdown > ul > li:hover > ul{
+#dropdown > ul > li > ul > li > ul{
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    display: block;
+}
+
+#dropdown > ul > li:hover > ul,
+#dropdown > ul > li > ul > li:hover > ul{
     opacity: 1;
     pointer-events: all;
 }
 
-#dropdown > ul > li > ul > li:hover > a{
+#dropdown > ul > li > ul > li:hover > a,
+#dropdown > ul > li > ul > li > ul > li:nth-child(1):hover > a{
     background-color: #444;
 }
 
-#dropdown > ul > li, #dropdown > ul > li > ul > li{
+#dropdown > ul > li,
+#dropdown > ul > li > ul > li,
+#dropdown > ul > li > ul > li > ul > li{
     list-style: none;
     display: inline;
 }
 
-#dropdown > ul{
+#dropdown > ul,
+#dropdown > ul > li,
+#dropdown > ul > li > ul,
+#dropdown > ul > li > ul > li,
+#dropdown > ul > li > ul > li > ul,
+#dropdown > ul > li > ul > li > ul > li{
     font-size: 0;
 }
 
-#dropdown > ul > li > a, #dropdown > ul > li > ul > li{
+#dropdown > ul > li > a,
+#dropdown > ul > li > ul > li > a,
+#dropdown > ul > li > ul > li > ul > li > a{
     font-size: 15px;
 }
 
 #dropdown > ul > li > a{
     text-decoration: none;
     color: white;
+    /* background-color: #222; */
     padding: 16.5px;
     display: inline-block;
 }
 
-#dropdown > ul > li > ul > li > a{
+#dropdown > ul > li > ul > li > a, #dropdown > ul > li > ul > li > ul > li > a{
     text-decoration: none;
     color: white;
     background-color: #222;
@@ -98,26 +118,4 @@ header{
 hr{
     margin: 0;
     color: rgb(9, 255, 0);
-}
-
-/* Background images: */
-#divBckgrndImgs{
-    position: absolute;
-    width: 100%;
-    min-width: 1005px;
-    top: 0;
-}
-
-.bckgrndImg{
-    width: 100%;
-}
-
-/* #divInvisible{
-
-} */
-
-.bckgrndImgInvsbl{
-    margin-top: -39px;
-    width: 100%;
-    opacity: 0;
 }

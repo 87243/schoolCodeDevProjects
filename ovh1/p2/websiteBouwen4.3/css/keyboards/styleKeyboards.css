@@ -1,0 +1,8 @@
+/* Navbar current page: */
+/* #dropdown > ul > li > ul > li:nth-child(1){
+    pointer-events: none;
+} */
+
+#dropdown > ul > li > ul > li:nth-child(1) > a, #liMenu > a{
+    background-color: #038857;
+}
