@@ -4,7 +4,13 @@ body{
 }
 
 body > div{
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 30px;
     outline: white solid 2px;
+}
+
+body > div > p{
+    text-align: center;
+    padding-top: 5px;
+    /* background-color: rgb(0, 255, 0); */
 }
