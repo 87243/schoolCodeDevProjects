@@ -20,6 +20,7 @@ body{
 #divImages2 > div{
     width: 700px;
     position: relative;
+    margin: 0 auto 0 auto;
 }
 
 img{
