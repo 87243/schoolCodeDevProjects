@@ -1,13 +1,13 @@
+/* Maak de website donker thema: */
 body{
     background-color: black;
     color: white;
 }
 
+/* DIV met tekst: */
 #divP{
     z-index: 1;
     margin-top: 100px;
-    /* min-width: 1005px; */
-    /* max-width: 75%; */
     left: 0;
     right: 0;
 }
@@ -53,7 +53,7 @@ body{
     color: aqua;
 }
 
-/* Arrows: */
+/* Table sorting arrows: */
 #thAge > i{
     margin-left: 5px;
 }

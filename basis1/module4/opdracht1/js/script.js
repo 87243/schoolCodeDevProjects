@@ -1,4 +1,4 @@
-// Table:
+// Table data:
 let sortDirection = false;
 let personData = [
     {name: 'Dylan', age: 34},
@@ -7,6 +7,8 @@ let personData = [
     {name: 'Isabella', age: 18},
     {name: 'Sebastian', age: 26}
 ];
+
+// Load table data:
 window.onload = () => {
     loadTableData(personData);
 }
@@ -18,6 +20,8 @@ function loadTableData(personData) {
     }
     tableBody.innerHTML = dataHtml;
 }
+
+// Table sorting:
 function sortColumn(columnName){
     const dataType = typeof personData[0][columnName];
     sortDirection = !sortDirection;

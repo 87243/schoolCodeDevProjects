@@ -1,8 +1,10 @@
+/* Maak de website donker thema: */
 body{
     background-color: black;
     color: white;
 }
 
+/* HR Verkleinen: */
 #divHr{
     width: 400px;
 }

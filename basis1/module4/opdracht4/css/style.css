@@ -1,8 +1,10 @@
+/* Maak de website donker thema: */
 body{
     background-color: black;
     color: white;
 }
 
+/* Gekleurde DIVs met tekst: */
 body > div{
     width: 300px;
     height: 30px;
@@ -12,5 +14,4 @@ body > div{
 body > div > p{
     text-align: center;
     padding-top: 5px;
-    /* background-color: rgb(0, 255, 0); */
 }

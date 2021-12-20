@@ -1,8 +1,10 @@
+/* Maak de website donker thema: */
 body{
     background-color: black;
     color: white;
 }
 
+/* DIV met DIV met DIVs met fotos en tekst: */
 #divImages{
     left: 0;
     right: 0;
@@ -13,7 +15,6 @@ body{
 #divImages2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-auto-rows: minmax(0, auto); */
     gap: 100px;
 }
 
@@ -23,11 +24,13 @@ body{
     margin: 0 auto 0 auto;
 }
 
+/* Foto: */
 img{
     width: 100%;
     margin-bottom: 5px;
 }
 
+/* HR: */
 hr{
     width: 100%;
     position: absolute;
