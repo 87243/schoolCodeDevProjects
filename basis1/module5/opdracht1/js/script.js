@@ -1,16 +1,16 @@
 function goed(){
     document.getElementById("resultaatVeld").innerHTML = "Goed zo!";
-    document.getElementById("resultaatImgAside").innerHTML = '<img src="media/ok.gif" id="resultaatImg"></img>';
+    document.getElementById("resultaatImgAside").innerHTML = '<img src="media/ok.gif"></img>';
 }
 
 function lager(){
     document.getElementById("resultaatVeld").innerHTML = "Kies lager.";
-    document.getElementById("resultaatImgAside").innerHTML = '<img src="media/arrow-down.gif" id="resultaatImg"></img>';
+    document.getElementById("resultaatImgAside").innerHTML = '<img src="media/arrow-down.gif"></img>';
 }
 
 function hoger(){
     document.getElementById("resultaatVeld").innerHTML = "Kies hoger.";
-    document.getElementById("resultaatImgAside").innerHTML = '<img src="media/arrow-up.gif" id="resultaatImg"></img>';
+    document.getElementById("resultaatImgAside").innerHTML = '<img src="media/arrow-up.gif"></img>';
 }
 
 function error(){
