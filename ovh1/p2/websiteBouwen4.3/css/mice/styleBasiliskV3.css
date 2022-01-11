@@ -1,0 +1,10 @@
+/* Navbar current page: */
+#liMenu > ul > li:nth-child(2) > ul > li{
+    pointer-events: none;
+}
+
+#liMenu > a,
+#liMenu > ul > li:nth-child(2) > a,
+#liMenu > ul > li:nth-child(2) > ul > li > a{
+    background-color: #038857;
+}

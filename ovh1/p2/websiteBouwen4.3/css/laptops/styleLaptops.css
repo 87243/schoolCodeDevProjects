@@ -1,13 +1,10 @@
 /* Navbar current page: */
-#dropdown > ul > li > ul > li:nth-child(3){
+/* #dropdown > ul > li > ul > li:nth-child(3){
     pointer-events: none;
-}
+} */
 
+#liMenu > a,
 #dropdown > ul > li > ul > li:nth-child(3) > a{
-    background-color: #038857;
-}
-
-#liMenu > a{
     background-color: #038857;
 }
 

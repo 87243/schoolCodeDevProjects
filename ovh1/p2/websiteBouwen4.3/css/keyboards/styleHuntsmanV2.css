@@ -1,0 +1,46 @@
+/* Navbar current page: */
+#dropdown > ul > li > ul > li:nth-child(1) > ul > li{
+    pointer-events: none;
+}
+
+#liMenu > a,
+#liMenu > ul > li:nth-child(1) > a,
+#liMenu > ul > li:nth-child(1) > ul > li > a{
+    background-color: #038857;
+}
+
+/* #dropdown > ul > li > ul > li:hover > a,
+#dropdown > ul > li > ul > li > ul > li:nth-child(1):hover > a{
+    background-color: #038857;
+} */
+
+/* Keyboard: */
+#divContent{
+    z-index: 1;
+    min-width: 1005px;
+    max-width: 1920px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#divContent > img{
+    width: 100%;
+}
+
+#divContent > div{
+    width: 100%;
+    margin-top: 75px;
+}
+
+#divContent > div > p{
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.30);
+    text-align: center;
+    width: 680px;
+    left: 0;
+    right: 0;
+    margin: 0 auto 0 auto;
+}
