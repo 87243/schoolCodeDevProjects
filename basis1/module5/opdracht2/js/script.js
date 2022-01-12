@@ -9,94 +9,112 @@ let totaalPrijsPeer = 0;
 let totaalPrijsBanaan = 0;
 let totaalPrijs = 0;
 
-function productPlus(product){
-    if (product == "appel"){
-        appelAantal += 1;
-        totaalPrijsAppel += appelPrijs;
-        totaalPrijs += appelPrijs;
-        document.getElementById("totaal_appel").innerHTML = `<input type="number" value="${appelAantal}" id="aantalAppelInput" oninput="productInput('appel')">`;
-        document.getElementById("totaalPrijs_appel").innerHTML = '<input type="number" value="'+totaalPrijsAppel+'">';
+// Producten aantal:
+function productenAantal(inputType, type, product){
+    // Input type:
+    //     Button:
+    if (inputType == 'button'){
+        // Type:
+        //     Plus:
+        if (type == 'plus'){
+            // Product:
+            //     Appel:
+            if (product == 'appel'){
+                appelAantal = parseInt(appelAantal) + 1;
+                totaalPrijsAppel += appelPrijs;
+                document.getElementById("totaal_appel").innerHTML = `<input type="text" value="${appelAantal}" id="aantalAppelInput" oninput="productenAantal('textField', '', 'appel')">`;
+            }
+            //     Peer:
+            if (product == 'peer'){
+                peerAantal = parseInt(peerAantal) + 1;
+                totaalPrijsPeer += peerPrijs;
+                document.getElementById("totaal_peer").innerHTML = `<input type="text" value="${peerAantal}" id="aantalPeerInput" oninput="productenAantal('textField', '', 'peer')">`;
+            }
+            //     Banaan:
+            if (product == 'banaan'){
+                banaanAantal = parseInt(banaanAantal) + 1;
+                totaalPrijsBanaan += banaanPrijs;
+                document.getElementById("totaal_banaan").innerHTML = `<input type="text" value="${banaanAantal}" id="aantalBanaanInput" oninput="productenAantal('textField', '', 'banaan')">`;
+            }
+        }
+        //     Min:
+        if (type == 'min'){
+            // Product:
+            //     Appel:
+            if (product == 'appel'){
+                if (parseInt(appelAantal) - 1 < 0){
+                    window.alert("Bro dit kan niet he, fuck jouw stupid.");
+                    return;
+                }
+                appelAantal = parseInt(appelAantal) - 1;
+                totaalPrijsAppel -= appelPrijs;
+                document.getElementById("totaal_appel").innerHTML = `<input type="text" value="${appelAantal}" id="aantalAppelInput" oninput="productenAantal('textField', '', 'appel')">`;
+            }
+            //     Peer:
+            if (product == 'peer'){
+                if (parseInt(peerAantal) - 1 < 0){
+                    window.alert("Bro dit kan niet he, fuck jouw stupid.");
+                    return;
+                }
+                peerAantal = parseInt(peerAantal) - 1;
+                totaalPrijsPeer -= peerPrijs;
+                document.getElementById("totaal_peer").innerHTML = `<input type="text" value="${peerAantal}" id="aantalPeerInput" oninput="productenAantal('textField', '', 'peer')">`;
+            }
+            //     Banaan:
+            if (product == 'banaan'){
+                if (parseInt(banaanAantal) - 1 < 0){
+                    window.alert("Bro dit kan niet he, fuck jouw stupid.");
+                    return;
+                }
+                banaanAantal = parseInt(banaanAantal) - 1;
+                totaalPrijsBanaan -= banaanPrijs;
+                document.getElementById("totaal_banaan").innerHTML = `<input type="text" value="${banaanAantal}" id="aantalBanaanInput" oninput="productenAantal('textField', '', 'banaan')">`;
+            }
+        }
     }
-    if (product == "peer"){
-        peerAantal += 1;
-        totaalPrijsPeer += peerPrijs;
-        totaalPrijs += peerPrijs;
-        document.getElementById("totaal_peer").innerHTML = `<input type="number" value="${peerAantal}" id="aantalPeerInput" oninput="productInput('peer')">`;
-        document.getElementById("totaalPrijs_peer").innerHTML = '<input type="number" value="'+totaalPrijsPeer+'">';
+    //     Text field:
+    if (inputType == 'textField'){
+        // Product:
+        //     Appel:
+        if (product == 'appel'){
+            if (isNaN(parseInt(document.getElementById("aantalAppelInput").value)) == true){
+                window.alert("Bro doe normaal.");
+                return;
+            }
+            appelAantal = parseInt(document.getElementById("aantalAppelInput").value);
+            totaalPrijsAppel = appelAantal * appelPrijs;
+            document.getElementById("totaal_appel").innerHTML = `<input type="text" value="${appelAantal}" id="aantalAppelInput" oninput="productenAantal('textField', '', 'appel')">`;
+        }
+        //     Peer:
+        if (product == 'peer'){
+            if (isNaN(parseInt(document.getElementById("aantalPeerInput").value)) == true){
+                window.alert("Bro doe normaal.");
+                return;
+            }
+            peerAantal = parseInt(document.getElementById("aantalPeerInput").value);
+            totaalPrijsPeer = peerAantal * peerPrijs;
+            document.getElementById("totaal_peer").innerHTML = `<input type="text" value="${peerAantal}" id="aantalPeerInput" oninput="productenAantal('textField', '', 'peer')">`;
+        }
+        //     Banaan:
+        if (product == 'banaan'){
+            if (isNaN(parseInt(document.getElementById("aantalBanaanInput").value)) == true){
+                window.alert("Bro doe normaal.");
+                return;
+            }
+            banaanAantal = parseInt(document.getElementById("aantalBanaanInput").value);
+            totaalPrijsBanaan = banaanAantal * banaanPrijs;
+            document.getElementById("totaal_banaan").innerHTML = `<input type="text" value="${banaanAantal}" id="aantalBanaanInput" oninput="productenAantal('textField', '', 'banaan')">`;
+        }
     }
-    if (product == "banaan"){
-        banaanAantal += 1;
-        totaalPrijsBanaan += banaanPrijs;
-        totaalPrijs += banaanPrijs;
-        document.getElementById("totaal_banaan").innerHTML = `<input type="number" value="${banaanAantal}" id="aantalBanaanInput" oninput="productInput('banaan')">`;
-        document.getElementById("totaalPrijs_banaan").innerHTML = '<input type="number" value="'+totaalPrijsBanaan+'">';
-    }
-    document.getElementById("totaalPrijs").innerHTML = '<input type="number" value="'+totaalPrijs+'">';
+    // Totaal optelling:
+    totaalOptelling();
 }
 
-function productMin(product){
-    if (product == "appel"){
-        appelAantal -= 1;
-        totaalPrijsAppel -= appelPrijs;
-        totaalPrijs -= appelPrijs;
-        document.getElementById("totaal_appel").innerHTML = `<input type="number" value="${appelAantal}" id="aantalAppelInput" oninput="productInput('appel')">`;
-        document.getElementById("totaalPrijs_appel").innerHTML = '<input type="number" value="'+totaalPrijsAppel+'">';
-    }
-    if (product == "peer"){
-        peerAantal -= 1;
-        totaalPrijsPeer -= peerPrijs;
-        totaalPrijs -= peerPrijs;
-        document.getElementById("totaal_peer").innerHTML = `<input type="number" value="${peerAantal}" id="aantalPeerInput" oninput="productInput('peer')">`;
-        document.getElementById("totaalPrijs_peer").innerHTML = '<input type="number" value="'+totaalPrijsPeer+'">';
-    }
-    if (product == "banaan"){
-        banaanAantal -= 1;
-        totaalPrijsBanaan -= banaanPrijs;
-        totaalPrijs -= banaanPrijs;
-        document.getElementById("totaal_banaan").innerHTML = `<input type="number" value="${banaanAantal}" id="aantalBanaanInput" oninput="productInput('banaan')">`;
-        document.getElementById("totaalPrijs_banaan").innerHTML = '<input type="number" value="'+totaalPrijsBanaan+'">';
-    }
-    document.getElementById("totaalPrijs").innerHTML = '<input type="number" value="'+totaalPrijs+'">';
-}
-
-function productInput(product){
-    // Appel:
-    if (product == "appel"){
-        appelAantal = document.getElementById("aantalAppelInput").valueAsNumber;
-        totaalPrijsAppel = appelAantal * appelPrijs;
-        document.getElementById("totaal_appel").innerHTML = `<input type="number" value="${appelAantal}" id="aantalAppelInput" oninput="productInput('appel')">`;
-        document.getElementById("totaalPrijs_appel").innerHTML = '<input type="number" value="'+totaalPrijsAppel+'">';
-    }
-    // Peer:
-    if (product == "peer"){
-        peerAantal = document.getElementById("aantalPeerInput").valueAsNumber;
-        totaalPrijsPeer = peerAantal * peerPrijs;
-        document.getElementById("totaal_peer").innerHTML = `<input type="number" value="${peerAantal}" id="aantalPeerInput" oninput="productInput('peer')">`;
-        document.getElementById("totaalPrijs_peer").innerHTML = '<input type="number" value="'+totaalPrijsPeer+'">';
-    }
-    // Banaan:
-    if (product == "banaan"){
-        banaanAantal = document.getElementById("aantalBanaanInput").valueAsNumber;
-        totaalPrijsBanaan = banaanAantal * banaanPrijs;
-        document.getElementById("totaal_banaan").innerHTML = `<input type="number" value="${banaanAantal}" id="aantalBanaanInput" oninput="productInput('banaan')">`;
-        document.getElementById("totaalPrijs_banaan").innerHTML = '<input type="number" value="'+totaalPrijsBanaan+'">';
-    }
-    // Bereken:
+// Totaal optelling:
+function totaalOptelling(){
+    document.getElementById("totaalPrijs_appel").innerHTML = '<input type="text" value="'+totaalPrijsAppel+'">';
+    document.getElementById("totaalPrijs_peer").innerHTML = '<input type="text" value="'+totaalPrijsPeer+'">';
+    document.getElementById("totaalPrijs_banaan").innerHTML = '<input type="text" value="'+totaalPrijsBanaan+'">';
     totaalPrijs = totaalPrijsAppel + totaalPrijsPeer + totaalPrijsBanaan;
-    document.getElementById("totaalPrijs").innerHTML = '<input type="number" value="'+totaalPrijs+'">';
-}
-
-function productInputButton(){
-    // Appel:
-    appelAantal = document.getElementById("aantalAppelInput").valueAsNumber;
-    totaalPrijsAppel = appelAantal * appelPrijs;
-    document.getElementById("totaal_appel").innerHTML = `<input type="number" value="${appelAantal}" id="aantalAppelInput" oninput="productInput('appel')">`;
-    document.getElementById("totaalPrijs_appel").innerHTML = '<input type="number" value="'+totaalPrijsAppel+'">';
-    // Peer:
-    // ...
-    // Banaan:
-    // ...
-    // Bereken:
-    totaalPrijs = totaalPrijsAppel + totaalPrijsPeer + totaalPrijsBanaan;
-    document.getElementById("totaalPrijs").innerHTML = '<input type="number" value="'+totaalPrijs+'">';
+    document.getElementById("totaalPrijs").innerHTML = '<input type="text" value="'+totaalPrijs+'">';
 }
