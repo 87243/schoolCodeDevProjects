@@ -81,7 +81,6 @@
 /* Content: */
 #divContent{
     z-index: 1;
-    position: absolute;
     min-width: 1005px;
     max-width: 1400px;
     width: 75%;
@@ -91,23 +90,21 @@
     margin-right: auto;
 }
 
-#divContent > img{
+#divContent > img,
+#divContent > div > img{
     width: 100%;
-    position: absolute;
+}
+
+#divContent > p{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
 }
 
 #divContent > div{
-    position: absolute;
-    width: 100%;
-    margin-top: 75px;
-}
-
-#divContent > div > p{
-    font-size: 40px;
-    background-color: rgba(0, 0, 0, 0.30);
-    text-align: center;
-    width: 680px;
+    width: 30%;
     left: 0;
     right: 0;
-    margin: 0 auto 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }

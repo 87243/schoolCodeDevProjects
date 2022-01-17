@@ -77,3 +77,18 @@
     grid-column: 3;
     grid-row: 4;
 }
+
+#divContent{
+    z-index: 1;
+    min-width: 1005px;
+    max-width: 1920px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#divContent > p{
+    text-align: center;
+}

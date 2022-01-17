@@ -4,6 +4,10 @@ body{
     margin: 0;
 }
 
+p{
+    font-family: RazerF5,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+
 /* Sticky Header & navbar: */
 header{
     position: sticky;
@@ -156,4 +160,49 @@ hr:nth-child(2){
 .productBar2 > p{
     margin: 0;
     padding-top: 10px;
+    float: left;
+}
+
+.productBar2 > p:nth-child(3){
+    float: right;
+    padding-right: 20px;
+}
+
+.productBar2 > button{
+    float: right;
+    margin-top: 7px;
+    border: none;
+    background-color: #00ff00;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+/* General terms of use: */
+#divGeneralTermsOfUse{
+    position: sticky;
+    bottom: 40px;
+    background-color: #44d62c;
+    border-radius: 5px;
+    width: 600px;
+    float: right;
+    margin: 0 40px;
+    padding: 20px;
+}
+
+#divGeneralTermsOfUse > p{
+    color: black;
+}
+
+#divGeneralTermsOfUse > button{
+    border: 2px solid #000;
+    color: #000;
+    background-color: #44d62c;
+    border-radius: .1875rem;
+    padding: 5px 10px;
+    float: right;
+}
+
+.bold{
+    font-size: 1.3125rem;
+    font-weight: 700;
 }
