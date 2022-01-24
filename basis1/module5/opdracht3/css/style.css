@@ -9,6 +9,8 @@ table{
     font-size: 0.9em;
     font-family: sans-serif;
     min-width: 250px;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
 }
 
 table > thead > tr{
