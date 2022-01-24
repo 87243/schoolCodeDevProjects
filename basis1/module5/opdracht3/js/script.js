@@ -17,4 +17,7 @@ function funkyTime(button){
     if (button == "f" || button == "F"){
         new Audio(`media/${sounds[3]}.mp3`).play();
     };
+    if (button == "q" || button == "Q"){
+        document.location.reload(true);
+    };
 };
