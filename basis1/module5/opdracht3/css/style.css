@@ -36,6 +36,11 @@ table > tbody > tr:nth-of-type(even){
     background-color: #444;
 }
 
+table > tbody > tr:hover{
+    background-color: #005879;
+    cursor: pointer;
+}
+
 table > tbody > tr:last-of-type {
     border-bottom: 2px solid #009879;
 }
