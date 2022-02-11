@@ -43,7 +43,7 @@ function productenAantal(inputType, type, product){
             //     Appel:
             if (product == 'appel'){
                 if (parseInt(appelAantal) - 1 < 0){
-                    window.alert("Bro dit kan niet he, fuck jouw stupid.");
+                    window.alert("Dit kan niet.");
                     return;
                 }
                 appelAantal = parseInt(appelAantal) - 1;
@@ -53,7 +53,7 @@ function productenAantal(inputType, type, product){
             //     Peer:
             if (product == 'peer'){
                 if (parseInt(peerAantal) - 1 < 0){
-                    window.alert("Bro dit kan niet he, fuck jouw stupid.");
+                    window.alert("Dit kan niet.");
                     return;
                 }
                 peerAantal = parseInt(peerAantal) - 1;
@@ -63,7 +63,7 @@ function productenAantal(inputType, type, product){
             //     Banaan:
             if (product == 'banaan'){
                 if (parseInt(banaanAantal) - 1 < 0){
-                    window.alert("Bro dit kan niet he, fuck jouw stupid.");
+                    window.alert("Dit kan niet.");
                     return;
                 }
                 banaanAantal = parseInt(banaanAantal) - 1;
@@ -78,7 +78,7 @@ function productenAantal(inputType, type, product){
         //     Appel:
         if (product == 'appel'){
             if (isNaN(parseInt(document.getElementById("aantalAppelInput").value)) == true){
-                window.alert("Bro doe normaal.");
+                window.alert("Dit kan niet.");
                 return;
             }
             appelAantal = parseInt(document.getElementById("aantalAppelInput").value);
@@ -88,7 +88,7 @@ function productenAantal(inputType, type, product){
         //     Peer:
         if (product == 'peer'){
             if (isNaN(parseInt(document.getElementById("aantalPeerInput").value)) == true){
-                window.alert("Bro doe normaal.");
+                window.alert("Dit kan niet.");
                 return;
             }
             peerAantal = parseInt(document.getElementById("aantalPeerInput").value);
@@ -98,7 +98,7 @@ function productenAantal(inputType, type, product){
         //     Banaan:
         if (product == 'banaan'){
             if (isNaN(parseInt(document.getElementById("aantalBanaanInput").value)) == true){
-                window.alert("Bro doe normaal.");
+                window.alert("Dit kan niet.");
                 return;
             }
             banaanAantal = parseInt(document.getElementById("aantalBanaanInput").value);
