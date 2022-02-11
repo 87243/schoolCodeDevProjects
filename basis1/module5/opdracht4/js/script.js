@@ -1,48 +1,58 @@
+let smoke;
 let cloud;
-let cloudWidth = 0;
+let cloudWidth = -400;
+let cloud2Width = -1240;
 let tree;
 
 
 function setup() {
     createCanvas(1280, 720);
     strokeWeight(2);
-
+    smoke = loadImage("media/smoke.gif");
     cloud = loadImage("media/cloud.png");
-    tree = loadImage("media/tree.png")
+    tree = loadImage("media/tree.png");
 }
 
 function draw() {
     background(0, 150, 255);
-    
+
+
     fill(0, 255, 0);
-    rect(0, 375, windowWidth, windowHeight)
+    rect(0, 375, windowWidth, windowHeight);
+
+
+    image(cloud, cloudWidth, 0);
+    image(cloud, cloud2Width, 50);
+    cloud.resize(600, 250);
+    cloudWidth += 1;
+    cloud2Width += 1;
+
+    if(cloudWidth > width){
+        cloudWidth -= width + cloud.width;
+    }
+    if(cloud2Width > width){
+        cloud2Width -= width + cloud.width;
+    }
+
 
     drawHouse(25, 400, 100, 100);
     drawHouse(150, 440, 125, 200);
     drawHouse(25, 550, 100, 125);
 
 
-    image(cloud, cloudWidth, 0);
-    image(cloud, cloudWidth - 800, 50);
-    cloud.resize(600, 250);
-    cloudWidth += 1;
-    if(cloudWidth - 900 > width){
-        cloudWidth = -900;
-    }
     image(tree, 400, 400);
     tree.resize(200, 200);
 }
-
-// for (let i = 0; i < 375; i++){
-//     // image(cloud, cloudWidth++, 0);
-//     cloudWidth += 0.5;
-//     // console.log("bababoey");
-// }
 
 function drawHouse(houseX, houseY, houseWidth, houseHeight) {
     const frontY = houseY + houseHeight * .4;
     const frontHeight = houseHeight * .6;
     
+    // chimney
+    fill(255, 255, 153);
+    rect((houseX + houseWidth) * .8, houseY, 20, houseHeight);
+    image(smoke, ((houseX + houseWidth) * .8 ) - 230, houseY - 325);
+
     // front
     fill(255, 255, 153);
     rect(houseX, frontY, houseWidth, frontHeight);
