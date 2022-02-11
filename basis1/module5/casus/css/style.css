@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#div1{
+    margin: 50px auto 0 auto;
+    left: 0;
+    right: 0;
+    /* width: 265px; */
+    width: 360px;
+    height: 600px;
+    padding-top: 20px;
+    outline: rgb(150, 150, 150) 1px solid;
+    border-radius: 10px;
+    background-color: rgb(10, 10, 10);
+}
+
+#div2{
+    margin: 0 50px 50px 50px;
+    /* padding-top: 50px; */
+}
+
+textarea{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    border-color: rgb(150, 150, 150);
+}
