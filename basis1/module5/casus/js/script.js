@@ -9,7 +9,7 @@ function enigma(){
     input = document.getElementById("inputHtml").value;
 
     for (let i = 0; i < input.length; i++){
-        if (/[a-zA-Z ]/.test(String.fromCharCode(input.charCodeAt(i))) == true){
+        if (/[a-zA-Z \n]/.test(String.fromCharCode(input.charCodeAt(i))) == true){
             if (String.fromCharCode(input.charCodeAt(i)) == "z"){
                 output += "a";
             }
@@ -18,6 +18,9 @@ function enigma(){
             }
             else if (String.fromCharCode(input.charCodeAt(i)) == " "){
                 output += " ";
+            }
+            else if (String.fromCharCode(input.charCodeAt(i)) == "\n"){
+                output += "\n";
             }
             else{
                 nextCharacter(input, i);
