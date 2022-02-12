@@ -12,10 +12,12 @@
         <div id="div2">
             <h1>Enigma</h1>
             <h2>Invoer:</h2>
-            <textarea cols="30" rows="10" autofocus></textarea>
+            <textarea id="inputHtml" cols="30" rows="10" autofocus oninput="enigma()"></textarea>
             <h2>Gecodeerde tekst:</h2>
-            <textarea cols="30" rows="10" readonly></textarea>
+            <textarea id="outputHtml" cols="30" rows="10" readonly></textarea>
+            <button onclick="reset()">Reset</button>
         </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
