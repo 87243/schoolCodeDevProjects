@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#content{
+    left: 0;
+    right: 0;
+    margin: 100px auto 0 auto;
+    width: 302px;
+    outline: 1px solid rgb(100, 100, 100);
+    background-color: rgb(30, 30, 30);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#content > button{
+    margin: 0 0 10px 0;
+}
+
+#content > button,
+#buttonBar > button{
+    background-color: rgb(30, 30, 30);
+    border: none;
+    outline: 1px solid rgb(100, 100, 100);
+    color: white;
+    border-radius: 10px;
+    padding: 3px 5px;
+}
+
+#content > h2{
+    margin: 0 0 10px 0;
+}
+
+#buttonBar > button{
+    margin: 0 10px 10px 0;
+}
+
+#buttonBar > button:nth-of-type(3){
+    margin: 0 0 10px 0;
+}
+
+#content > button:hover,
+#buttonBar > button:hover{
+    background-color: rgb(50, 50, 50);
+    outline: 1px solid rgb(125, 125, 125);
+    color: cyan;
+}
+
+#content > button:active,
+#buttonBar > button:active{
+    background-color: rgb(10, 10, 10);
+    outline: 1px solid rgb(75, 75, 75);
+    color: blue;
+}
