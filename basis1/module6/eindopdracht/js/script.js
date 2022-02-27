@@ -4,7 +4,11 @@ let gold;
 let goats;
 let pigs;
 let cows;
-let animals = {goats, pigs, cows};
+let elephants;
+let tigers;
+let giraffes;
+let dragons;
+let animals = {goats, pigs, cows, elephants, tigers, giraffes, dragons};
 
 // global functions
 function addGold(goldToAdd){
@@ -57,6 +61,46 @@ function checkGold(){
         buyButton.id = "cowBuyButton";
         buyButton.innerHTML = "Buy Cow (120g)";
         buyButton.addEventListener("click", ()=>buyAnimal("cow"));
+        buttonBar.appendChild(buyButton);
+    }
+
+    if(gold >= 200 && document.getElementById("elephantBuyButton") == null){
+        let buttonBar = document.getElementById("buttonBar");
+        let buyButton = document.createElement("button");
+
+        buyButton.id = "elephantBuyButton";
+        buyButton.innerHTML = "Buy Elephant (200g)";
+        buyButton.addEventListener("click", ()=>buyAnimal("elephant"));
+        buttonBar.appendChild(buyButton);
+    }
+
+    if(gold >= 250 && document.getElementById("tigerBuyButton") == null){
+        let buttonBar = document.getElementById("buttonBar");
+        let buyButton = document.createElement("button");
+
+        buyButton.id = "tigerBuyButton";
+        buyButton.innerHTML = "Buy Tiger (250g)";
+        buyButton.addEventListener("click", ()=>buyAnimal("tiger"));
+        buttonBar.appendChild(buyButton);
+    }
+
+    if(gold >= 300 && document.getElementById("giraffeBuyButton") == null){
+        let buttonBar = document.getElementById("buttonBar");
+        let buyButton = document.createElement("button");
+
+        buyButton.id = "giraffeBuyButton";
+        buyButton.innerHTML = "Buy Giraffe (300g)";
+        buyButton.addEventListener("click", ()=>buyAnimal("giraffe"));
+        buttonBar.appendChild(buyButton);
+    }
+
+    if(gold >= 500 && document.getElementById("dragonBuyButton") == null){
+        let buttonBar = document.getElementById("buttonBar");
+        let buyButton = document.createElement("button");
+
+        buyButton.id = "dragonBuyButton";
+        buyButton.innerHTML = "Buy Dragon (500g)";
+        buyButton.addEventListener("click", ()=>buyAnimal("dragon"));
         buttonBar.appendChild(buyButton);
     }
 }
@@ -133,6 +177,86 @@ function buyAnimal(animal) {
             }
 
             break;
+        case "elephant":
+
+            if(gold >= 200){
+                addGold(-200);
+
+                if(animals.elephants == null){
+                    animals.elephants = 1;
+                    let myElement = document.createElement("div");
+
+                    myElement.id = "elephants";
+                    myElement.innerHTML = "Elephant Quantity: " + animals.elephants;
+                    itemBar.appendChild(myElement);
+                    return;
+                }
+
+                animals.elephants += 1;
+                document.getElementById("elephants").innerHTML = "Elephant Quantity: " + animals.elephants;
+            }
+
+            break;
+        case "tiger":
+
+            if(gold >= 250){
+                addGold(-250);
+
+                if(animals.tigers == null){
+                    animals.tigers = 1;
+                    let myElement = document.createElement("div");
+
+                    myElement.id = "tigers";
+                    myElement.innerHTML = "Tiger Quantity: " + animals.tigers;
+                    itemBar.appendChild(myElement);
+                    return;
+                }
+
+                animals.tigers += 1;
+                document.getElementById("tigers").innerHTML = "Tiger Quantity: " + animals.tigers;
+            }
+
+            break;
+        case "giraffe":
+
+            if(gold >= 300){
+                addGold(-300);
+
+                if(animals.giraffes == null){
+                    animals.giraffes = 1;
+                    let myElement = document.createElement("div");
+
+                    myElement.id = "giraffes";
+                    myElement.innerHTML = "Giraffe Quantity: " + animals.giraffes;
+                    itemBar.appendChild(myElement);
+                    return;
+                }
+
+                animals.giraffes += 1;
+                document.getElementById("giraffes").innerHTML = "Giraffe Quantity: " + animals.giraffes;
+            }
+
+            break;
+        case "dragon":
+
+            if(gold >= 500){
+                addGold(-500);
+
+                if(animals.dragons == null){
+                    animals.dragons = 1;
+                    let myElement = document.createElement("div");
+
+                    myElement.id = "dragons";
+                    myElement.innerHTML = "Dragon Quantity: " + animals.dragons;
+                    itemBar.appendChild(myElement);
+                    return;
+                }
+
+                animals.dragons += 1;
+                document.getElementById("dragons").innerHTML = "Dragon Quantity: " + animals.dragons;
+            }
+
+            break;
         default:
             console.log("geen dier gevonden");
     }
@@ -151,6 +275,22 @@ function passiveGold(){
 
     if(animals.cows > 0){
         goldToAdd += animals.cows*15; //120=>15 8=>1
+    }
+
+    if(animals.elephants > 0){
+        goldToAdd += animals.elephants*20; //120=>15 8=>1
+    }
+
+    if(animals.tigers > 0){
+        goldToAdd += animals.tigers*30; //120=>15 8=>1
+    }
+
+    if(animals.giraffes > 0){
+        goldToAdd += animals.giraffes*50; //120=>15 8=>1
+    }
+
+    if(animals.dragons > 0){
+        goldToAdd += animals.dragons*100; //120=>15 8=>1
     }
 
     addGold(goldToAdd);
