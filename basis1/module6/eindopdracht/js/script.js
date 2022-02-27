@@ -110,7 +110,7 @@ function buyAnimal(animal) {
 
     if(itemBar == null){
         itemBar = document.createElement("div");
-        itemBar.id = "itemBar"; //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< maybe bad? original: itemBar.id != "itemBar";
+        itemBar.id = "itemBar";
         myContent.appendChild(itemBar);
     }
 
@@ -270,7 +270,7 @@ function passiveGold(){
     }
 
     if(animals.pigs > 0){
-        goldToAdd += animals.pigs*10; //90=>10    9=>1
+        goldToAdd += animals.pigs*10; //90=>10 9=>1
     }
 
     if(animals.cows > 0){
@@ -278,19 +278,19 @@ function passiveGold(){
     }
 
     if(animals.elephants > 0){
-        goldToAdd += animals.elephants*20; //120=>15 8=>1
+        goldToAdd += animals.elephants*20; //200=>20 ?
     }
 
     if(animals.tigers > 0){
-        goldToAdd += animals.tigers*30; //120=>15 8=>1
+        goldToAdd += animals.tigers*30; //250=>30 ?
     }
 
     if(animals.giraffes > 0){
-        goldToAdd += animals.giraffes*50; //120=>15 8=>1
+        goldToAdd += animals.giraffes*50; //300=>50 ?
     }
 
     if(animals.dragons > 0){
-        goldToAdd += animals.dragons*100; //120=>15 8=>1
+        goldToAdd += animals.dragons*100; //500=>100 ?
     }
 
     addGold(goldToAdd);
