@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#content{
+    left: 0;
+    right: 0;
+    margin: 100px auto 0 auto;
+    width: 362px;
+    outline: 1px solid rgb(100, 100, 100);
+    background-color: rgb(30, 30, 30);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input{
+    background-color: rgb(20, 20, 20);
+    border: none;
+    outline: 2px rgb(80, 80, 80) solid;
+    color: white;
+    width: 135px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 0 8px;
+}
+
+/* Remove arrow buttons from number input: */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number]{
+  -moz-appearance: textfield;
+}
+
+input[type=submit]{
+    width: 70px;
+    margin: 0 0 7px 0;
+}
+
+input[type=submit]:hover{
+    color: cyan;
+}
+
+input[type=submit]:active{
+    color: blue;
+}
+
+body > div > form > input{
+    margin: 0 0 10px 0;
+}
+
+table{
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 250px;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    margin: 0 0 20px 0;
+}
+
+table > thead > tr{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+table > thead > tr > th,
+table > tbody > tr > td{
+    padding: 12px 15px;
+}
+
+table > tbody > tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+table > tbody > tr:nth-of-type(odd){
+    background-color: #222;
+}
+
+table > tbody > tr:nth-of-type(even){
+    background-color: #444;
+}
+
+table > tbody > tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
