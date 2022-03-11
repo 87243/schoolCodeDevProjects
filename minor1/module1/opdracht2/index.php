@@ -8,43 +8,41 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        
+        <div id="content">
+            <?php
+                $naam = "Kewin";
+                $studentennummer = "87243";
+                $klas = "D1A1";
+
+                $leerlijn1 = "Beheer";
+                $leerlijn2 = "Interface";
+                $leerlijn3 = "Proces";
+                $leerlijn4 = "Program";
+
+                $beheerCijfer = 8.8;
+                $interfaceCijfer = 7.5;
+                $procesCijfer = 5.8;
+                $programCijfer = 7.9;
+
+                $mijnCijfers = [8.8, 7.5, 5.8, 7.9];
+
+                echo "Mijn naam is $naam.<br>";
+                echo "Mijn studentennummer is $studentennummer.<br>";
+                echo "Mijn klas is $klas.<br>";
+                echo "<br>";
+                echo "Mijn cijfers momenteel:<br>";
+                echo "$leerlijn1: $beheerCijfer<br>";
+                echo "$leerlijn2: $interfaceCijfer<br>";
+                echo "$leerlijn3: $procesCijfer<br>";
+                echo "$leerlijn4: $programCijfer<br>";
+                echo "<br>";
+                echo "Al mijn cijfers momenteel: ";
+
+                for($i = 0; $i < 3; $i++){
+                    echo "$mijnCijfers[$i], ";
+                }
+                echo "$mijnCijfers[3].";
+            ?>
+        </div>
     </body>
 </html>
-
-<?php
-    $naam = "Kewin";
-    $studentennummer = "87243";
-    $klas = "D1A1";
-    $cijfers = [8.8, 7.5, 5.8, 7.9];
-
-    echo 'Mijn naam is ';
-    echo $naam;
-    echo '.<br>';
-    echo 'Mijn studentennummer is ';
-    echo $studentennummer;
-    echo '.<br>';
-    echo 'Mijn klas is ';
-    echo $klas;
-    echo '.<br>';
-    echo '<br>';
-    echo 'Mijn cijfers momenteel:<br>';
-    echo 'Beheer: ';
-    echo $cijfers[0];
-    echo '<br>';
-    echo 'Interface: ';
-    echo $cijfers[1];
-    echo '<br>';
-    echo 'Proces: ';
-    echo $cijfers[2];
-    echo '<br>';
-    echo 'Program: ';
-    echo $cijfers [3];
-    echo '<br>';
-    echo '<br>';
-    echo 'Al mijn cijfers momenteel: ';
-    
-    foreach ($cijfers as $Cijfer) {
-        echo "$Cijfer, ";
-    }
-?>

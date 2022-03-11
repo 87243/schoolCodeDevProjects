@@ -8,18 +8,19 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        
+        <div id="content">
+            <?php
+                echo 'Mijn naam is Kewin.<br>';
+                echo 'Mijn studentennummer is 87243.<br>';
+                echo 'Mijn klas is D1A1.<br>';
+                echo '<br>';
+                echo 'Mijn cijfers momenteel:<br>';
+                echo 'Beheer: 8.8<br>';
+                echo 'Interface: 7.5<br>';
+                echo 'Proces: 5.8<br>';
+                echo 'Program: 7.9<br>';
+            ?>
+        </div>
     </body>
 </html>
 
-<?php
-    echo 'Mijn naam is Kewin.<br>';
-    echo 'Mijn studentennummer is 87243.<br>';
-    echo 'Mijn klas is D1A1.<br>';
-    echo '<br>';
-    echo 'Mijn cijfers momenteel:<br>';
-    echo 'Beheer: 8.8<br>';
-    echo 'Interface: 7.5<br>';
-    echo 'Proces: 5.8<br>';
-    echo 'Program: 7.9<br>';
-?>

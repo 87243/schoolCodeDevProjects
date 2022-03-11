@@ -1,0 +1,11 @@
+body > div > p{
+    margin: 0 0 10px 0;
+}
+
+table{
+    margin: 0 0 20px 0;
+}
+
+.inline{
+    display: inline-block;
+}
