@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "XkEAn3ISvoIWU0fSEkwG6l2AP3pIlluwQ+Wm8U1pO7LLlxbGyx1okTkLQ1xq4UAWaKeEx+DY7hbEGHim+8MFMA==",
+  "dgSpecHash": "dWU76Md2M8CfH129jmP0q9OILOLo6VwVclXftuqIinL918nhhj0ionXrYN3JLeFrYJHZHe17gkovYxAXOqZpSg==",
   "success": true,
-  "projectFilePath": "/Users/segaar/Projects/Opdracht1_1/Opdracht1_1/Opdracht1_1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Kewin Grabowski\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\Opdracht1_1\\Opdracht1_1\\Opdracht1_1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kewin Grabowski\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512",
+    "C:\\Users\\Kewin Grabowski\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Kewin Grabowski\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Kewin Grabowski\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
