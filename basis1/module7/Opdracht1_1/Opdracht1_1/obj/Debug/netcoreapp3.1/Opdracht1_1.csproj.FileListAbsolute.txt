@@ -1,0 +1,12 @@
+/Users/segaar/Projects/Opdracht1_1/Opdracht1_1/bin/Debug/netcoreapp3.1/Opdracht1_1.deps.json
+/Users/segaar/Projects/Opdracht1_1/Opdracht1_1/bin/Debug/netcoreapp3.1/Opdracht1_1.runtimeconfig.json
+/Users/segaar/Projects/Opdracht1_1/Opdracht1_1/bin/Debug/netcoreapp3.1/Opdracht1_1.runtimeconfig.dev.json
+/Users/segaar/Projects/Opdracht1_1/Opdracht1_1/bin/Debug/netcoreapp3.1/Opdracht1_1.dll
+/Users/segaar/Projects/Opdracht1_1/Opdracht1_1/bin/Debug/netcoreapp3.1/Opdracht1_1.pdb
+/Users/segaar/Projects/Opdracht1_1/Opdracht1_1/obj/Debug/netcoreapp3.1/Opdracht1_1.csprojAssemblyReference.cache
+/Users/segaar/Projects/Opdracht1_1/Opdracht1_1/obj/Debug/netcoreapp3.1/Opdracht1_1.AssemblyInfoInputs.cache
+/Users/segaar/Projects/Opdracht1_1/Opdracht1_1/obj/Debug/netcoreapp3.1/Opdracht1_1.AssemblyInfo.cs
+/Users/segaar/Projects/Opdracht1_1/Opdracht1_1/obj/Debug/netcoreapp3.1/Opdracht1_1.csproj.CoreCompileInputs.cache
+/Users/segaar/Projects/Opdracht1_1/Opdracht1_1/obj/Debug/netcoreapp3.1/Opdracht1_1.dll
+/Users/segaar/Projects/Opdracht1_1/Opdracht1_1/obj/Debug/netcoreapp3.1/Opdracht1_1.pdb
+/Users/segaar/Projects/Opdracht1_1/Opdracht1_1/obj/Debug/netcoreapp3.1/Opdracht1_1.genruntimeconfig.cache
