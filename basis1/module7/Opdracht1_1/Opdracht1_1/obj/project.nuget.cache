@@ -1,13 +1,45 @@
 {
   "version": 2,
-  "dgSpecHash": "dWU76Md2M8CfH129jmP0q9OILOLo6VwVclXftuqIinL918nhhj0ionXrYN3JLeFrYJHZHe17gkovYxAXOqZpSg==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Kewin Grabowski\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\Opdracht1_1\\Opdracht1_1\\Opdracht1_1.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Kewin Grabowski\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512",
-    "C:\\Users\\Kewin Grabowski\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\Kewin Grabowski\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Kewin Grabowski\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
-  ],
-  "logs": []
+  "dgSpecHash": "Ba91gSCHCr37WPxAfPndHfcR8elak36iSB8SzYwSCbnve6LCU3x5tr4XBo3ILfvXMUn+lfK2u9FrCM8iBn1rJQ==",
+  "success": false,
+  "projectFilePath": "D:\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\Opdracht1_1\\Opdracht1_1\\Opdracht1_1.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu Microsoft.NETCore.App.Host.win-x64. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu Microsoft.AspNetCore.App.Ref. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.App.Ref",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu Microsoft.WindowsDesktop.App.Ref. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu Microsoft.NETCore.App.Ref. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Ref",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

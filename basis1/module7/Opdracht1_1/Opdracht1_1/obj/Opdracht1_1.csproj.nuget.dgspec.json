@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kewin Grabowski\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\Opdracht1_1\\Opdracht1_1\\Opdracht1_1.csproj": {}
+    "D:\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\Opdracht1_1\\Opdracht1_1\\Opdracht1_1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kewin Grabowski\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\Opdracht1_1\\Opdracht1_1\\Opdracht1_1.csproj": {
+    "D:\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\Opdracht1_1\\Opdracht1_1\\Opdracht1_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kewin Grabowski\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\Opdracht1_1\\Opdracht1_1\\Opdracht1_1.csproj",
+        "projectUniqueName": "D:\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\Opdracht1_1\\Opdracht1_1\\Opdracht1_1.csproj",
         "projectName": "Opdracht1_1",
-        "projectPath": "C:\\Users\\Kewin Grabowski\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\Opdracht1_1\\Opdracht1_1\\Opdracht1_1.csproj",
-        "packagesPath": "C:\\Users\\Kewin Grabowski\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kewin Grabowski\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\Opdracht1_1\\Opdracht1_1\\obj\\",
+        "projectPath": "D:\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\Opdracht1_1\\Opdracht1_1\\Opdracht1_1.csproj",
+        "packagesPath": "C:\\Users\\kewin\\.nuget\\packages\\",
+        "outputPath": "D:\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\Opdracht1_1\\Opdracht1_1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kewin Grabowski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kewin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,8 +25,7 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -60,7 +59,7 @@
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.23, 3.1.23]"
+              "version": "[3.1.22, 3.1.22]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
@@ -76,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

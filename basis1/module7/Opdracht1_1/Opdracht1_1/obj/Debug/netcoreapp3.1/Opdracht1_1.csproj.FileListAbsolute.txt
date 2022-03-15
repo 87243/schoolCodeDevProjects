@@ -10,3 +10,5 @@
 /Users/segaar/Projects/Opdracht1_1/Opdracht1_1/obj/Debug/netcoreapp3.1/Opdracht1_1.dll
 /Users/segaar/Projects/Opdracht1_1/Opdracht1_1/obj/Debug/netcoreapp3.1/Opdracht1_1.pdb
 /Users/segaar/Projects/Opdracht1_1/Opdracht1_1/obj/Debug/netcoreapp3.1/Opdracht1_1.genruntimeconfig.cache
+D:\School\GLR\D1A1\htmlCssJs\basis1\module7\Opdracht1_1\Opdracht1_1\obj\Debug\netcoreapp3.1\Opdracht1_1.dll
+D:\School\GLR\D1A1\htmlCssJs\basis1\module7\Opdracht1_1\Opdracht1_1\obj\Debug\netcoreapp3.1\Opdracht1_1.pdb
