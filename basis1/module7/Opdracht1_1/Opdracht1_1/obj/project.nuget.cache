@@ -1,45 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ba91gSCHCr37WPxAfPndHfcR8elak36iSB8SzYwSCbnve6LCU3x5tr4XBo3ILfvXMUn+lfK2u9FrCM8iBn1rJQ==",
-  "success": false,
-  "projectFilePath": "D:\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\Opdracht1_1\\Opdracht1_1\\Opdracht1_1.csproj",
+  "dgSpecHash": "OctuNVuSAzrOXuXDrL2kVUbasEsnb9i714csQNC1aMSYaVojSV5o/FN4qUzsqzzrFPti8iqEsxt2+dI2bVR+Hg==",
+  "success": true,
+  "projectFilePath": "D:\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\opdracht1_1\\opdracht1_1\\opdracht1_1.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Nie można znaleźć pakietu Microsoft.NETCore.App.Host.win-x64. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
-      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Nie można znaleźć pakietu Microsoft.AspNetCore.App.Ref. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
-      "libraryId": "Microsoft.AspNetCore.App.Ref",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Nie można znaleźć pakietu Microsoft.WindowsDesktop.App.Ref. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
-      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Nie można znaleźć pakietu Microsoft.NETCore.App.Ref. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
-      "libraryId": "Microsoft.NETCore.App.Ref",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }

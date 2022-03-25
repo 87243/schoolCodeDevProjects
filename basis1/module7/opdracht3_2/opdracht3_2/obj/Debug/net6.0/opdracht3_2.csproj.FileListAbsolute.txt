@@ -1,0 +1,15 @@
+C:\Users\Kewin Grabowski\School\GLR\D1A1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\opdracht3_2.csproj.AssemblyReference.cache
+C:\Users\Kewin Grabowski\School\GLR\D1A1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\opdracht3_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kewin Grabowski\School\GLR\D1A1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\opdracht3_2.AssemblyInfoInputs.cache
+C:\Users\Kewin Grabowski\School\GLR\D1A1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\opdracht3_2.AssemblyInfo.cs
+C:\Users\Kewin Grabowski\School\GLR\D1A1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\opdracht3_2.csproj.CoreCompileInputs.cache
+C:\Users\Kewin Grabowski\School\GLR\D1A1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\bin\Debug\net6.0\opdracht3_2.exe
+C:\Users\Kewin Grabowski\School\GLR\D1A1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\bin\Debug\net6.0\opdracht3_2.deps.json
+C:\Users\Kewin Grabowski\School\GLR\D1A1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\bin\Debug\net6.0\opdracht3_2.runtimeconfig.json
+C:\Users\Kewin Grabowski\School\GLR\D1A1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\bin\Debug\net6.0\opdracht3_2.dll
+C:\Users\Kewin Grabowski\School\GLR\D1A1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\bin\Debug\net6.0\opdracht3_2.pdb
+C:\Users\Kewin Grabowski\School\GLR\D1A1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\opdracht3_2.dll
+C:\Users\Kewin Grabowski\School\GLR\D1A1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\refint\opdracht3_2.dll
+C:\Users\Kewin Grabowski\School\GLR\D1A1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\opdracht3_2.pdb
+C:\Users\Kewin Grabowski\School\GLR\D1A1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\opdracht3_2.genruntimeconfig.cache
+C:\Users\Kewin Grabowski\School\GLR\D1A1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\ref\opdracht3_2.dll
