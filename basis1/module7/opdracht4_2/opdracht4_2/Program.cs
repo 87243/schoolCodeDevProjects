@@ -4,9 +4,9 @@ namespace opdracht4_2{
     class MainClass{
         public static void Main(string[] args){
             int aantalX = 23; //Dit was eerst: int aantalX = 21;
-			int aantalY = 15;
-			for(int y = 0; y < aantalY; y++){ //Dit was eerst: for(int y = 0; y < aantalX; y++){
-                if(y < aantalY - 4){
+            int aantalY = 16; //Dit was eerst: int aantalY = 15;
+            for(int y = 0; y < aantalY; y++){ //Dit was eerst: for(int y = 0; y < aantalX; y++){
+                if(y < aantalY - 5){ //Dit was er eerst niet
                     for(int x = 0; x < aantalX; x++){
                         if(y < aantalY - 4){
                             //top van de boom
@@ -16,11 +16,11 @@ namespace opdracht4_2{
                             else{
                                 Console.Write("* "); //Dit was eerst: Console.Write("  ");
                             }
-                            Console.WriteLine();
                         }
                     }
+                    Console.WriteLine();
                 }
-                if(y > aantalY - 4 && y < aantalY){
+                if(y > aantalY - 5 && y < aantalY){ //Dit was er eerst niet
                     //stam
                     Console.WriteLine("                    * * *");
                     // Dit was eerst:
@@ -31,7 +31,7 @@ namespace opdracht4_2{
                     // 	Console.Write("  ");
                     // }
                 }
-			}
-		}
+            }
+        }
     }
 }

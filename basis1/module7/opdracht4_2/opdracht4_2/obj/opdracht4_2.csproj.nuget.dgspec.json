@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kewin Grabowski\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\opdracht4_2\\opdracht4_2\\opdracht4_2.csproj": {}
+    "D:\\school\\glr\\d1a1\\htmlCssJs\\basis1\\module7\\opdracht4_2\\opdracht4_2\\opdracht4_2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kewin Grabowski\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\opdracht4_2\\opdracht4_2\\opdracht4_2.csproj": {
+    "D:\\school\\glr\\d1a1\\htmlCssJs\\basis1\\module7\\opdracht4_2\\opdracht4_2\\opdracht4_2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kewin Grabowski\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\opdracht4_2\\opdracht4_2\\opdracht4_2.csproj",
+        "projectUniqueName": "D:\\school\\glr\\d1a1\\htmlCssJs\\basis1\\module7\\opdracht4_2\\opdracht4_2\\opdracht4_2.csproj",
         "projectName": "opdracht4_2",
-        "projectPath": "C:\\Users\\Kewin Grabowski\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\opdracht4_2\\opdracht4_2\\opdracht4_2.csproj",
-        "packagesPath": "C:\\Users\\Kewin Grabowski\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kewin Grabowski\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\opdracht4_2\\opdracht4_2\\obj\\",
+        "projectPath": "D:\\school\\glr\\d1a1\\htmlCssJs\\basis1\\module7\\opdracht4_2\\opdracht4_2\\opdracht4_2.csproj",
+        "packagesPath": "C:\\Users\\kewin\\.nuget\\packages\\",
+        "outputPath": "D:\\school\\glr\\d1a1\\htmlCssJs\\basis1\\module7\\opdracht4_2\\opdracht4_2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kewin Grabowski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kewin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
