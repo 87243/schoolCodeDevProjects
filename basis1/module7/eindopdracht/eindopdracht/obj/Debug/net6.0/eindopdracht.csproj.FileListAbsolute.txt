@@ -1,0 +1,15 @@
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\eindopdracht\eindopdracht\obj\Debug\net6.0\eindopdracht.csproj.AssemblyReference.cache
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\eindopdracht\eindopdracht\obj\Debug\net6.0\eindopdracht.GeneratedMSBuildEditorConfig.editorconfig
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\eindopdracht\eindopdracht\obj\Debug\net6.0\eindopdracht.AssemblyInfoInputs.cache
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\eindopdracht\eindopdracht\obj\Debug\net6.0\eindopdracht.AssemblyInfo.cs
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\eindopdracht\eindopdracht\obj\Debug\net6.0\eindopdracht.csproj.CoreCompileInputs.cache
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\eindopdracht\eindopdracht\bin\Debug\net6.0\eindopdracht.exe
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\eindopdracht\eindopdracht\bin\Debug\net6.0\eindopdracht.deps.json
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\eindopdracht\eindopdracht\bin\Debug\net6.0\eindopdracht.runtimeconfig.json
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\eindopdracht\eindopdracht\bin\Debug\net6.0\eindopdracht.dll
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\eindopdracht\eindopdracht\bin\Debug\net6.0\eindopdracht.pdb
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\eindopdracht\eindopdracht\obj\Debug\net6.0\eindopdracht.dll
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\eindopdracht\eindopdracht\obj\Debug\net6.0\refint\eindopdracht.dll
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\eindopdracht\eindopdracht\obj\Debug\net6.0\eindopdracht.pdb
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\eindopdracht\eindopdracht\obj\Debug\net6.0\eindopdracht.genruntimeconfig.cache
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\eindopdracht\eindopdracht\obj\Debug\net6.0\ref\eindopdracht.dll

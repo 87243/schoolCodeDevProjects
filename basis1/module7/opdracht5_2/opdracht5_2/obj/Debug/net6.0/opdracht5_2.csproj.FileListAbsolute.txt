@@ -1,0 +1,15 @@
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht5_2\opdracht5_2\obj\Debug\net6.0\opdracht5_2.csproj.AssemblyReference.cache
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht5_2\opdracht5_2\obj\Debug\net6.0\opdracht5_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht5_2\opdracht5_2\obj\Debug\net6.0\opdracht5_2.AssemblyInfoInputs.cache
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht5_2\opdracht5_2\obj\Debug\net6.0\opdracht5_2.AssemblyInfo.cs
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht5_2\opdracht5_2\obj\Debug\net6.0\opdracht5_2.csproj.CoreCompileInputs.cache
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht5_2\opdracht5_2\bin\Debug\net6.0\opdracht5_2.exe
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht5_2\opdracht5_2\bin\Debug\net6.0\opdracht5_2.deps.json
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht5_2\opdracht5_2\bin\Debug\net6.0\opdracht5_2.runtimeconfig.json
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht5_2\opdracht5_2\bin\Debug\net6.0\opdracht5_2.dll
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht5_2\opdracht5_2\bin\Debug\net6.0\opdracht5_2.pdb
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht5_2\opdracht5_2\obj\Debug\net6.0\opdracht5_2.dll
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht5_2\opdracht5_2\obj\Debug\net6.0\refint\opdracht5_2.dll
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht5_2\opdracht5_2\obj\Debug\net6.0\opdracht5_2.pdb
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht5_2\opdracht5_2\obj\Debug\net6.0\opdracht5_2.genruntimeconfig.cache
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht5_2\opdracht5_2\obj\Debug\net6.0\ref\opdracht5_2.dll
