@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Opdracht5_2{
+namespace opdracht5_1{
     class MainClass{
         public static void Main(string[] args){
             //declareer hier drie variabelen waarin je het aantal A, E of I gaat opslaan

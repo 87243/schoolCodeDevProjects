@@ -13,3 +13,18 @@ C:\Users\Kewin Grabowski\School\GLR\D1A1\htmlCssJs\basis1\module7\opdracht3_2\op
 C:\Users\Kewin Grabowski\School\GLR\D1A1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\opdracht3_2.pdb
 C:\Users\Kewin Grabowski\School\GLR\D1A1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\opdracht3_2.genruntimeconfig.cache
 C:\Users\Kewin Grabowski\School\GLR\D1A1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\ref\opdracht3_2.dll
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\bin\Debug\net6.0\opdracht3_2.exe
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\bin\Debug\net6.0\opdracht3_2.deps.json
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\bin\Debug\net6.0\opdracht3_2.runtimeconfig.json
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\bin\Debug\net6.0\opdracht3_2.dll
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\bin\Debug\net6.0\opdracht3_2.pdb
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\opdracht3_2.csproj.AssemblyReference.cache
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\opdracht3_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\opdracht3_2.AssemblyInfoInputs.cache
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\opdracht3_2.AssemblyInfo.cs
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\opdracht3_2.csproj.CoreCompileInputs.cache
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\opdracht3_2.dll
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\refint\opdracht3_2.dll
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\opdracht3_2.pdb
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\opdracht3_2.genruntimeconfig.cache
+D:\school\glr\d1a1\htmlCssJs\basis1\module7\opdracht3_2\opdracht3_2\obj\Debug\net6.0\ref\opdracht3_2.dll

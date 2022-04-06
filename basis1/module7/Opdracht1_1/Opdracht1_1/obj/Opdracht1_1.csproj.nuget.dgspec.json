@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\opdracht1_1\\opdracht1_1\\opdracht1_1.csproj": {}
+    "D:\\school\\glr\\d1a1\\htmlCssJs\\basis1\\module7\\opdracht1_1\\opdracht1_1\\Opdracht1_1.csproj": {}
   },
   "projects": {
-    "D:\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\opdracht1_1\\opdracht1_1\\opdracht1_1.csproj": {
+    "D:\\school\\glr\\d1a1\\htmlCssJs\\basis1\\module7\\opdracht1_1\\opdracht1_1\\Opdracht1_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\opdracht1_1\\opdracht1_1\\opdracht1_1.csproj",
-        "projectName": "opdracht1_1",
-        "projectPath": "D:\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\opdracht1_1\\opdracht1_1\\opdracht1_1.csproj",
+        "projectUniqueName": "D:\\school\\glr\\d1a1\\htmlCssJs\\basis1\\module7\\opdracht1_1\\opdracht1_1\\Opdracht1_1.csproj",
+        "projectName": "Opdracht1_1",
+        "projectPath": "D:\\school\\glr\\d1a1\\htmlCssJs\\basis1\\module7\\opdracht1_1\\opdracht1_1\\Opdracht1_1.csproj",
         "packagesPath": "C:\\Users\\kewin\\.nuget\\packages\\",
-        "outputPath": "D:\\School\\GLR\\D1A1\\htmlCssJs\\basis1\\module7\\opdracht1_1\\opdracht1_1\\obj\\",
+        "outputPath": "D:\\school\\glr\\d1a1\\htmlCssJs\\basis1\\module7\\opdracht1_1\\opdracht1_1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
