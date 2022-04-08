@@ -9,6 +9,6 @@
 
     $db -> exec($query);
 
-    echo "Naam: ", $name, "<br>";
-    echo "Score: ", $score, "<br>";
+    echo "Naam: ". $name. "<br>";
+    echo "Score: ". $score. "<br>";
 ?>
