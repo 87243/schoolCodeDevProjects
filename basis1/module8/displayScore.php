@@ -6,6 +6,6 @@
     $result = $db -> query($query);
 
     while($row = $result -> fetchArray(SQLITE3_ASSOC)){
-        echo "Name: ", $row['naam'], " - Score: ", $row['Score'], "\n";
+        echo "Name: ", $row['Naam'], " - Score: ", $row['Score'], "\n";
     }
 ?>
