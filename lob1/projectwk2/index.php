@@ -26,22 +26,22 @@
             <p>Ik ben Kewin, ik zit op het GLR school al bijna een jaar, ik zit op het opleiding softwaredeveloper.</p>
 
             <h1>Hoe zou een thuisbasis er volgens mij uit moeten komen te zien?</h1>
-            <p>bruh</p>
+            <p>Gewoon, het is al goed hoe het is.</p>
 
             <h1>Hoe moet een praktijklokaal eruit komen te zien?</h1>
-            <p>bruh</p>
+            <p>Net zo als het nu is maar dan met betere stoelen.</p>
             <h2>Waarom ik voor dit concept gekozen heb?</h2>
-            <p>bruh</p>
+            <p>Omdat ik vind dat dat het beste is.</p>
 
             <h1>Hoe moet een theorielokaal eruit komen te zien?</h1>
-            <p>bruh</p>
+            <p>Net zo als het nu is maar dan met betere stoelen.</p>
             <h2>Waarom ik voor dit concept gekozen heb?</h2>
-            <p>bruh</p>
+            <p>Omdat ik vind dat dat het beste is.</p>
 
             <h1>Hoe kan de gang wat leuker aangekleed worden?</h1>
-            <p>bruh</p>
+            <p>Met RGB lights die door elke kleur cycle'en.</p>
             <h2>Waarom ik voor dit concept gekozen heb?</h2>
-            <p>bruh</p>
+            <p>Omdat ik vind dat dat het beste is.</p>
         </div>
         <!-- End of content -->
     </body>
