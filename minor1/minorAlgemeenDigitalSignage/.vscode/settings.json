@@ -1,15 +1,9 @@
 {
     //live sass compiler settings!
     "liveSassCompile.settings.formats": [
-        // extended css file!
-        {
-            "format": "expanded",
-            "extensionName": ".css",
-            "savePath": "~/../css"
-        },
         //compressed css file!
         {
-            "extensionName": ".min.css",
+            "extensionName": ".css",
             "format": "compressed",
             "savePath": "~/../css"
         }
