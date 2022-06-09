@@ -31,38 +31,54 @@
         <div id="productsGridDiv">
             <div>
                 <img src="media/burger1.jpg" alt="">
+                <p>Burger 1</p>
+                <a href="">Bestel</a>
             </div>
             <div>
                 <img src="media/burger2.jpg" alt="">
+                <p>Burger 2</p>
+                <a href="">Bestel</a>
             </div>
             <div>
                 <img src="media/burger3.jpg" alt="">
+                <p>Burger 3</p>
+                <a href="">Bestel</a>
             </div>
-            <!-- <div>
+            <div>
                 <img src="media/burger4.jpg" alt="">
-            </div> -->
+                <p>Burger 4</p>
+                <a href="">Bestel</a>
+            </div>
             <div>
                 <img src="media/burger5.jpg" alt="">
+                <p>Burger 5</p>
+                <a href="">Bestel</a>
             </div>
             <div>
                 <img src="media/burger6.jpg" alt="">
+                <p>Burger 6</p>
+                <a href="">Bestel</a>
             </div>
             <div>
                 <img src="media/burger7.jpg" alt="">
+                <p>Burger 7</p>
+                <a href="">Bestel</a>
             </div>
             <div>
                 <img src="media/burger8.jpg" alt="">
+                <p>Burger 8</p>
+                <a href="">Bestel</a>
             </div>
             <div>
                 <img src="media/burger9.jpg" alt="">
+                <p>Burger 9</p>
+                <a href="">Bestel</a>
             </div>
             <div>
                 <img src="media/burger10.jpg" alt="">
+                <p>Burger 10</p>
+                <a href="">Bestel</a>
             </div>
-            <div>
-                <img src="media/burger4.jpg" alt="">
-            </div>
-            
         </div>
         <!-- End of products grid -->
     </body>

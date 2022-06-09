@@ -13,6 +13,8 @@ body > nav{
     background-color: #20222a;
     height: 50px;
     width: 100%;
+    position: sticky;
+    top: 0;
 }
 
 // Logo and name:
@@ -89,8 +91,8 @@ body > nav > div:nth-of-type(2) > ul > li:nth-of-type(3) > a:hover{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
     width: 75%;
     left: 0;
     right: 0;
@@ -139,6 +141,20 @@ body > nav > div:nth-of-type(2) > ul > li:nth-of-type(3) > a:hover{
 
 #productsGridDiv > div > img{
     width: 100%;
-    // height: 100%;
+}
+
+#productsGridDiv > div > p{
+    position: absolute;
+    margin: -165px 0 0 6px;
+}
+
+#productsGridDiv > div > a{
+    position: absolute;
+    margin: 125px 0 0 -108px;
+    text-decoration: none;
+    color: white;
+    background-color: #222;
+    padding: 2px 5px;
+    outline: 1px solid white;
 }
 // End of products grid
