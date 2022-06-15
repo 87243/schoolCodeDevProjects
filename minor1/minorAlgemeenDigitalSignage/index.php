@@ -30,53 +30,53 @@
         <!-- Products grid: -->
         <div id="productsGridDiv">
             <div>
-                <img src="media/burger1.jpg" alt="">
                 <p>Burger 1</p>
-                <a href="">Bestel</a>
+                <img src="media/burger1.jpg" alt="">
+                <a href="order/?product=burger1">Bestel</a>
             </div>
             <div>
-                <img src="media/burger2.jpg" alt="">
                 <p>Burger 2</p>
+                <img src="media/burger2.jpg" alt="">
                 <a href="">Bestel</a>
             </div>
             <div>
-                <img src="media/burger3.jpg" alt="">
                 <p>Burger 3</p>
+                <img src="media/burger3.jpg" alt="">
                 <a href="">Bestel</a>
             </div>
             <div>
-                <img src="media/burger4.jpg" alt="">
                 <p>Burger 4</p>
+                <img src="media/burger4.jpg" alt="">
                 <a href="">Bestel</a>
             </div>
             <div>
-                <img src="media/burger5.jpg" alt="">
                 <p>Burger 5</p>
+                <img src="media/burger5.jpg" alt="">
                 <a href="">Bestel</a>
             </div>
             <div>
-                <img src="media/burger6.jpg" alt="">
                 <p>Burger 6</p>
+                <img src="media/burger6.jpg" alt="">
                 <a href="">Bestel</a>
             </div>
             <div>
-                <img src="media/burger7.jpg" alt="">
                 <p>Burger 7</p>
+                <img src="media/burger7.jpg" alt="">
                 <a href="">Bestel</a>
             </div>
             <div>
-                <img src="media/burger8.jpg" alt="">
                 <p>Burger 8</p>
+                <img src="media/burger8.jpg" alt="">
                 <a href="">Bestel</a>
             </div>
             <div>
-                <img src="media/burger9.jpg" alt="">
                 <p>Burger 9</p>
+                <img src="media/burger9.jpg" alt="">
                 <a href="">Bestel</a>
             </div>
             <div>
-                <img src="media/burger10.jpg" alt="">
                 <p>Burger 10</p>
+                <img src="media/burger10.jpg" alt="">
                 <a href="">Bestel</a>
             </div>
         </div>

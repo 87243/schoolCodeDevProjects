@@ -92,11 +92,12 @@ body > nav > div:nth-of-type(2) > ul > li:nth-of-type(3) > a:hover{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 30px;
-    grid-row-gap: 20px;
+    grid-row-gap: 50px;
     width: 75%;
     left: 0;
     right: 0;
     margin: 0 auto 0 auto;
+    padding: 50px 0;
 }
 
 #productsGridDiv > div:nth-of-type(1){
@@ -139,18 +140,17 @@ body > nav > div:nth-of-type(2) > ul > li:nth-of-type(3) > a:hover{
     grid-area: 5 / 2 / 6 / 3;
 }
 
-#productsGridDiv > div > img{
-    width: 100%;
+#productsGridDiv > div > p{
+    padding: 0 0 5px 0;
 }
 
-#productsGridDiv > div > p{
-    position: absolute;
-    margin: -165px 0 0 6px;
+#productsGridDiv > div > img{
+    width: 100%;
+    z-index: 0;
+    margin: 0 0 5px 0;
 }
 
 #productsGridDiv > div > a{
-    position: absolute;
-    margin: 125px 0 0 -108px;
     text-decoration: none;
     color: white;
     background-color: #222;
